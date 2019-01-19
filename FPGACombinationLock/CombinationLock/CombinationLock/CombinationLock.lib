@@ -1,89 +1,89 @@
-timestamp=1547857818987
+timestamp=1547913366876
 
 [~A]
-ModifyID=1372
+ModifyID=1386
 Version=74
 
 [combinationlock]
-A/combinationlock_arch=A/CombinationLock_arch 21|./../src/CombinationLock.vhd|29|1*1264876
-BinI32/combinationlock_arch=3*433328
+A/combinationlock_arch=A/CombinationLock_arch 21|./../src/CombinationLock.vhd|29|1*1345705
+BinI32/combinationlock_arch=3*462767
 I=0*14968
-I/combinationlock_arch=I/CombinationLock_arch 0*598553
+I/combinationlock_arch=I/CombinationLock_arch 0*638636
 M=11|0|vde|1547480886459|./../compile/CombinationLock.vhd|0*1461*0x387e0029436507f5889598f85f01823560e6705a|0*1918*0x23b75c12e3e89f2ef000564498faa8c2
-M/combinationlock_arch=M/CombinationLock_arch 21|0|vde|1547857818779|./../src/CombinationLock.vhd|0*585126*0xe4ae016362acdacdc0106b13973043b6fc356c86|0*587405*0x20116f55b147878295aeff36dce7fc50
+M/combinationlock_arch=M/CombinationLock_arch 21|0|vde|1547913045539|./../src/CombinationLock.vhd|0*636086*0x0fefece3a2443588d8add4d59174a647ec379157|0*638515*0x20116f55b147878295aeff36dce7fc50
 NSymbols/combinationlock=NSymbols/CombinationLock 40|0|2*157732
 R=./../compile/CombinationLock.vhd|26
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b7067bea4233e3a9970d981be62e3fd6ba2fbcc04043527dad6d24ef0a4aab370
 Version/combinationlock=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b7067bea4233e3a9970d981be62e3fd6b4d02476dfaee800655485c5786ff6408
-Version/combinationlock_arch=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b70d2aebef9f96829fa4f917e8ee007558f8db08bb6f7c22619ce1b61720205a3
+Version/combinationlock_arch=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b70d2aebef9f96829fa4f917e8ee007551dfe62ffa1a14bbbf3ebd1d431111d13
 
 [combinationlocksystem]
-A/combinationlocksystem=A/CombinationLockSystem 24|.\..\src\CombinationLockSystem.bde|10000|1*1274400
+A/combinationlocksystem=A/CombinationLockSystem 24|.\..\src\CombinationLockSystem.bde|10000|1*1355991
 I=0*392000
-I/combinationlocksystem=I/CombinationLockSystem 0*602538
+I/combinationlocksystem=I/CombinationLockSystem 0*642063
 M=11|0|vde|1547750393566|./../compile/CombinationLockSystem.vhd|0*391365*0x8d4c99b20f8ce55ef9eb5004d954dfcc701f836c|0*391887*0x23b75c12e3e89f2ef000564498faa8c2
-M/combinationlocksystem=M/CombinationLockSystem 21|0|vde|1547857818924|./../compile/CombinationLockSystem.vhd|0*600827*0xdeacd73f3eaa81f37dcce0774de9a6df7a1b63e1|0*602400*0x20116f55b147878295aeff36dce7fc50
+M/combinationlocksystem=M/CombinationLockSystem 21|0|vde|1547913045742|./../compile/CombinationLockSystem.vhd|0*640352*0xdeacd73f3eaa81f37dcce0774de9a6df7a1b63e1|0*641925*0x20116f55b147878295aeff36dce7fc50
 R=./../compile/CombinationLockSystem.vhd|27
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744ba4c4c4fdb91991b053159f235e3cc21d34485dfe0663f781ad73e665b21c6d8e
-Version/combinationlocksystem=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744ba4c4c4fdb91991b053159f235e3cc21d80de5f52510d830da04f58db030db241
+Version/combinationlocksystem=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744ba4c4c4fdb91991b053159f235e3cc21d4dd71613e4f5f12c19b3bd8e4923758a
 
 [combinationlocksystem_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/CombinationLockSystem_TB.vhd|27|1*1281681
-BinI32/tb_architecture=3*438674
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/CombinationLockSystem_TB.vhd|27|1*1363272
+BinI32/tb_architecture=3*468865
 I=0*16797
-I/tb_architecture=I/TB_ARCHITECTURE 0*603544
+I/tb_architecture=I/TB_ARCHITECTURE 0*643069
 M=11|0|vde|1576708643454|./../src/TestBench/CombinationLockSystem_TB.vhd|0*0*0xcf0b0086ef0cb2076fbeaabff55ef804617bd818|0*270*0x23b75c12e3e89f2ef000564498faa8c2
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|vde|1547857818968|./../src/TestBench/CombinationLockSystem_TB.vhd|0*464290*0x7721d722856d764fced3902e8d11c852ccdcdaeb|0*467412*0x20116f55b147878295aeff36dce7fc50
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vde|1547913045798|./../src/TestBench/CombinationLockSystem_TB.vhd|0*464290*0x7721d722856d764fced3902e8d11c852ccdcdaeb|0*467412*0x20116f55b147878295aeff36dce7fc50
 R=./../src/TestBench/CombinationLockSystem_TB.vhd|28
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744bf1defe091304809e4533c4d7a10de44d29b765001716a9f5842522eb5ef6cdcd1a0dafaa5d4dca940f84e6abf25bf9c1
-Version/tb_architecture=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea79b3d54138e1186f1e669f3a022203cb
+Version/tb_architecture=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea590b0934e83dd65cbfc69361fd783354
 
 [debouncer]
-A/debouncer=A/Debouncer 21|./../src/Debouncer.vhd|23|1*1270555
-BinI32/debouncer=3*436383
+A/debouncer=A/Debouncer 21|./../src/Debouncer.vhd|23|1*1352145
+BinI32/debouncer=3*466576
 I=0*17644
-I/debouncer=I/Debouncer 0*599152
+I/debouncer=I/Debouncer 0*639235
 M=11|0|vde|1577046952886|./../src/Debouncer.vhd|0*731*0xacede11f6e0e026abaddc5d0d55b6113a06e9c3a|0*968*0x23b75c12e3e89f2ef000564498faa8c2
-M/debouncer=M/Debouncer 21|0|vde|1547857818834|./../src/Debouncer.vhd|0*1053*0x6f0bbce1f3721227075ae2e98364badd66ea6381|0*1363*0x20116f55b147878295aeff36dce7fc50
+M/debouncer=M/Debouncer 21|0|vde|1547913045619|./../src/Debouncer.vhd|0*1053*0x6f0bbce1f3721227075ae2e98364badd66ea6381|0*1363*0x20116f55b147878295aeff36dce7fc50
 NSymbols/debouncer=NSymbols/Debouncer 40|0|2*160724
 R=./../src/Debouncer.vhd|15
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4d90a4496ba3730233421c77383657a2471558cb7edec52181b26edfc24e44ab7a964bedbf4a3c7f3475421eb2e9848d
-Version/debouncer=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4d90a4496ba3730233421c77383657a2471558cb7edec52181b26edfc24e44ab6cd1505b53e04d5c67792077713d2b98
+Version/debouncer=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4d90a4496ba3730233421c77383657a2471558cb7edec52181b26edfc24e44abdb24aa9d5e5be1af8e886695047e15b1
 
 [display]
-A/display=A/Display 21|./../src/Display.vhd|37|1*1267393
-BinI32/display=3*434530
+A/display=A/Display 21|./../src/Display.vhd|37|1*1348541
+BinI32/display=3*464020
 I=0*384515
-I/display=I/Display 0*598862
+I/display=I/Display 0*638945
 M=11|0|vde|1547750354088|./../src/Display.vhd|0*384034*0x2ea194d5a967b7db0e4dbb56f792ceb634f8f514|0*384434*0x23b75c12e3e89f2ef000564498faa8c2
-M/display=M/Display 21|0|vde|1547857818812|./../src/Display.vhd|0*530573*0x22f75fd2a8d03cda06f28379c448778852aa015f|0*533365*0x20116f55b147878295aeff36dce7fc50
+M/display=M/Display 21|0|vde|1547913045582|./../src/Display.vhd|0*620892*0xc0ef8d6b0c311a210a4c4cf7fdaecc3fc40fcd7b|0*624576*0x20116f55b147878295aeff36dce7fc50
 NSymbols/display=NSymbols/Display 40|0|2*162439
 R=./../src/Display.vhd|25
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3c176dad9cde25b1cb5a00594e6cbac026527262ddaa47cb266f3a3c4d9b973a51851928b034e7721502de425b02d791
-Version/display=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3c176dad9cde25b1cb5a00594e6cbac026527262ddaa47cb266f3a3c4d9b973ab0c559e043a0c7bfcdd988fd32f077a9
+Version/display=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3c176dad9cde25b1cb5a00594e6cbac026527262ddaa47cb266f3a3c4d9b973ae5541e189e4c682e7805b89fa9ec36be
 
 [display_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/Display_TB.vhd|27|1*1278467
-BinI32/tb_architecture=3*437703
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/Display_TB.vhd|27|1*1360058
+BinI32/tb_architecture=3*467894
 I=0*68182
-I/tb_architecture=I/TB_ARCHITECTURE 0*603046
+I/tb_architecture=I/TB_ARCHITECTURE 0*642571
 M=11|0|vde|1547591657762|./../src/TestBench/Display_TB.vhd|0*67871*0x7e190cadf1f2201dc0f85f5d3c32c22965fab7cd|0*68085*0x23b75c12e3e89f2ef000564498faa8c2
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|vde|1547857818933|./../src/TestBench/Display_TB.vhd|0*397799*0x6b2ab3bc960712117540bd0577b2184361dd68c1|0*399536*0x20116f55b147878295aeff36dce7fc50
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vde|1547913045760|./../src/TestBench/Display_TB.vhd|0*397799*0x6b2ab3bc960712117540bd0577b2184361dd68c1|0*399536*0x20116f55b147878295aeff36dce7fc50
 R=./../src/TestBench/Display_TB.vhd|22
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|2e40ccfd069269ad60bbc33ee595e166161950ab965e4e0a097a6fefa266448292f55fd77c47e8e3f40a5d14c3b52cd7
-Version/tb_architecture=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea1665188279f36998b36af1ff17e521d3
+Version/tb_architecture=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea9b99cc81cde46112f9db8f78d52091e2
 
 [displayprescaler]
-A/displayprescaler=A/DisplayPrescaler 21|./../src/DisplayPrescaler.vhd|28|1*1272535
-BinI32/displayprescaler=3*437091
+A/displayprescaler=A/DisplayPrescaler 21|./../src/DisplayPrescaler.vhd|28|1*1366725
+BinI32/displayprescaler=3*470447
 I=0*20694
-I/displayprescaler=I/DisplayPrescaler 0*600217
+I/displayprescaler=I/DisplayPrescaler 0*644179
 M=11|0|vde|1547588142450|./../src/DisplayPrescaler.vhd|0*20316*0x40dfaebbb57e210e72e9fd80274c45085d26ec91|0*20595*0x23b75c12e3e89f2ef000564498faa8c2
-M/displayprescaler=M/DisplayPrescaler 21|0|vde|1547857818873|./../src/DisplayPrescaler.vhd|0*599659*0x9538493582d6f356226043ca10f11fc680d4d44a|0*600098*0x20116f55b147878295aeff36dce7fc50
+M/displayprescaler=M/DisplayPrescaler 21|0|vde|1547913366846|./../src/DisplayPrescaler.vhd|0*643621*0x9fcdf84f7e923768c0acaf0570b75bf66d601c4f|0*644060*0x20116f55b147878295aeff36dce7fc50
 NSymbols/displayprescaler=NSymbols/DisplayPrescaler 40|0|2*165413
 R=./../src/DisplayPrescaler.vhd|19
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|29c6c43cebad8943b6353d50bf51b8046954c10b857a23b6ddaec817aadb29e6a1c0384ca0a12454562bfaee41f30c2d
-Version/displayprescaler=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|29c6c43cebad8943b6353d50bf51b8046954c10b857a23b6ddaec817aadb29e690c68b36c06b121b9bae0dcb0470afe8
+Version/displayprescaler=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|29c6c43cebad8943b6353d50bf51b8046954c10b857a23b6ddaec817aadb29e6978cc2a0d847535a83e4e3c16d29bfd4
 
 [fub1]
 A/fub1=21|.\..\src\Fub1.vhd|10000|
@@ -95,49 +95,49 @@ A/debouncer=21|.\..\src\Debouncer.vhd|10000|
 A/pass_word=A/PASS_WORD 21|.\..\src\PASS_WORD.vhd|10000|
 
 [pass_word_gen]
-A/pass_word_gen=A/PASS_WORD_GEN 21|./../src/PASS_WORD_GEN.vhd|36|1*1273613
-BinI32/pass_word_gen=3*437460
+A/pass_word_gen=A/PASS_WORD_GEN 21|./../src/PASS_WORD_GEN.vhd|36|1*1355204
+BinI32/pass_word_gen=3*467651
 I=0*223519
-I/pass_word_gen=I/PASS_WORD_GEN 0*600525
+I/pass_word_gen=I/PASS_WORD_GEN 0*640050
 M=11|0|vde|1547594663690|./../src/PASS_WORD_GEN.vhd|0*223164*0x945338e4c640d73ac2e67fa73274f5196a19ae67|0*223426*0x23b75c12e3e89f2ef000564498faa8c2
-M/pass_word_gen=M/PASS_WORD_GEN 21|0|vde|1547857818899|./../src/PASS_WORD_GEN.vhd|0*223807*0x2b1b35c7457331146a5628db15ba8c56e47430dd|0*224053*0x20116f55b147878295aeff36dce7fc50
+M/pass_word_gen=M/PASS_WORD_GEN 21|0|vde|1547913045711|./../src/PASS_WORD_GEN.vhd|0*223807*0x2b1b35c7457331146a5628db15ba8c56e47430dd|0*224053*0x20116f55b147878295aeff36dce7fc50
 R=./../src/PASS_WORD_GEN.vhd|29
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|f8865a2de25bd7d1b10169caee2d329ea36c9edfbc1c16f38d2e620eae2057dcf29833a3ce04c544bbe5c78287b02f56
-Version/pass_word_gen=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|f8865a2de25bd7d1b10169caee2d329ea36c9edfbc1c16f38d2e620eae2057dc0fae48889fd6af8b9575be3c26209056
+Version/pass_word_gen=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|f8865a2de25bd7d1b10169caee2d329ea36c9edfbc1c16f38d2e620eae2057dcdc5bc1706df7c47ee40d42dfd3e8e1d7
 
 [prescaler]
-A/prescaler=A/Prescaler 21|./../src/Prescaler.vhd|28|1*1271473
-BinI32/prescaler=3*436729
+A/prescaler=A/Prescaler 21|./../src/Prescaler.vhd|28|1*1353063
+BinI32/prescaler=3*466922
 I=0*19053
-I/prescaler=I/Prescaler 0*599365
+I/prescaler=I/Prescaler 0*639448
 M=11|0|vde|1577045109892|./../src/Prescaler.vhd|0*395*0x18cb0ad2e3c42fef1308d0e81a0ac61361dab5ad|0*646*0x23b75c12e3e89f2ef000564498faa8c2
-M/prescaler=M/Prescaler 21|0|vde|1547857818854|./../src/Prescaler.vhd|0*593323*0xc722ad3fd76bcb442f314a1b25e9b61e75307169|0*593722*0x20116f55b147878295aeff36dce7fc50
+M/prescaler=M/Prescaler 21|0|vde|1547913045650|./../src/Prescaler.vhd|0*593323*0xc722ad3fd76bcb442f314a1b25e9b61e75307169|0*593722*0x20116f55b147878295aeff36dce7fc50
 NSymbols/prescaler=NSymbols/Prescaler 40|0|2*166753
 R=./../src/Prescaler.vhd|19
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|cae12c06217c698b50665c41a2a64cabb47390a3fca90f02da94c6585948d10906137b2fc70a0b8ada1cf4b0ee751cfe
-Version/prescaler=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|cae12c06217c698b50665c41a2a64cabb47390a3fca90f02da94c6585948d109966356b6cdb2591a18bb02ee6627d3cf
+Version/prescaler=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|cae12c06217c698b50665c41a2a64cabb47390a3fca90f02da94c6585948d109a52a7fdc04eda6a83a8ff184990b27a1
 
 [testbench_for_combinationlocksystem]
 Configures=CombinationLockSystem_TB.TB_ARCHITECTURE
-E=1*1284446
-I=0*603904
-M=2|0|vde|1547857818975|./../src/TestBench/CombinationLockSystem_TB.vhd|0*463528*0xa33f88e97be2f7d712a2f1ca4386c2ed7f3a0ded|0*463935*0x20116f55b147878295aeff36dce7fc50
+E=1*1366037
+I=0*643429
+M=2|0|vde|1547913045809|./../src/TestBench/CombinationLockSystem_TB.vhd|0*463528*0xa33f88e97be2f7d712a2f1ca4386c2ed7f3a0ded|0*463935*0x20116f55b147878295aeff36dce7fc50
 R=./../src/TestBench/CombinationLockSystem_TB.vhd|174
-Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e54cab1bc3997996abef2ca80bbf09f2976b60a37dbf93816b20b68df4e20c5a59d3d6e8f59a4b765d7fae8612852f35b3
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e54cab1bc3997996abef2ca80bbf09f2976b60a37dbf93816b20b68df4e20c5a59d2b6332ea816c40e1c5706810e419dae
 
 [testbench_for_display]
 Configures=Display_TB.TB_ARCHITECTURE
-E=1*1281236
-I=0*603380
-M=2|0|vde|1547857818941|./../src/TestBench/Display_TB.vhd|0*275624*0xcd8177e37129227f02c163a262af738c3e8509f7|0*275905*0x20116f55b147878295aeff36dce7fc50
+E=1*1362827
+I=0*642905
+M=2|0|vde|1547913045767|./../src/TestBench/Display_TB.vhd|0*275624*0xcd8177e37129227f02c163a262af738c3e8509f7|0*275905*0x20116f55b147878295aeff36dce7fc50
 R=./../src/TestBench/Display_TB.vhd|124
-Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e57d1992a1b6d6501aa9e54472767db463baf37b87cddc607972ace865ae41daaa
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e57d1992a1b6d6501aa9e54472767db463efeb4e034357aa39dd2f54d8d301ce45
 
 [~MFT]
-0=34|0CombinationLock.mgf|603904|577799
-1=21|1CombinationLock.mgf|1284446|938079
+0=8|0CombinationLock.mgf|644179|617148
+1=2|1CombinationLock.mgf|1366725|1007786
 2=0|2CombinationLock.mgf|166753|157732
-3=16|3CombinationLock.mgf|438674|433328
+3=2|3CombinationLock.mgf|470447|463134
 
 [~U]
 combinationlock=CombinationLock 11|0*14722||0x7

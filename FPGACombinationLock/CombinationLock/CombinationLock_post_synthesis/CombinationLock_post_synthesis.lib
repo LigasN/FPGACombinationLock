@@ -1,46 +1,47 @@
-timestamp=1547857887573
+timestamp=1547913444818
 
 [~A]
-ModifyID=130
+ModifyID=153
 Version=74
 
 [combinationlock]
 A/combinationlock_arch=*23|.\..\src\CombinationLock.asf|10000|
-A/structure=*21|./../synthesis/CombinationLockSystem.vhd|47|
+A/structure=*21|./../synthesis/CombinationLockSystem.vhd|58|
 
 [combinationlocksystem]
 A/combinationlocksystem=*24|.\..\src\CombinationLockSystem.bde|10000|
-A/structure=*21|./../synthesis/CombinationLockSystem.vhd|4602|
+A/structure=*21|./../synthesis/CombinationLockSystem.vhd|5868|
 
 [combinationlocksystem_tb]
 A/tb_architecture=*21|./../src/TestBench/CombinationLockSystem_TB.vhd|33|
 
 [debouncer]
 A/debouncer=*21|./../src/Debouncer.vhd|23|
-A/structure=*21|./../synthesis/CombinationLockSystem.vhd|1462|
+A/structure=*21|./../synthesis/CombinationLockSystem.vhd|2277|
 
 [display]
 A/display=*21|./../src/Display.vhd|36|
-A/structure=*21|./../synthesis/CombinationLockSystem.vhd|1555|
+A/structure=*21|./../synthesis/CombinationLockSystem.vhd|2381|
 
 [displayprescaler]
-A/structure=*21|./../synthesis/CombinationLockSystem.vhd|3581|
+A/structure=*21|./../synthesis/CombinationLockSystem.vhd|4847|
 
 [prescaler]
 A/prescaler=*21|./../src/Prescaler.vhd|28|
-A/structure=*21|./../synthesis/CombinationLockSystem.vhd|4022|
+A/structure=*21|./../synthesis/CombinationLockSystem.vhd|5288|
 
 [~MFT]
-0=0|0CombinationLock_post_synthesis.mgf|1606|0
+0=0|0CombinationLock_post_synthesis.mgf|1661|0
 
 [~U]
 combinationlock=CombinationLock 11|0*0|
-combinationlocksystem=CombinationLockSystem 11|0*372|
-combinationlocksystem_tb=CombinationLockSystem_TB 11|0*630|
-debouncer=Debouncer 11|0*784|
-display=Display 11|0*1014|
-displayprescaler=DisplayPrescaler 11|0*1391|
-prescaler=Prescaler 11|0*1606|
+combinationlocksystem=CombinationLockSystem 11|0*397|
+combinationlocksystem_tb=CombinationLockSystem_TB 11|0*655|
+debouncer=Debouncer 11|0*809|
+display=Display 11|0*1047|
+displayprescaler=DisplayPrescaler 11|0*1446|
+prescaler=Prescaler 11|0*1661|
+
 
 
 

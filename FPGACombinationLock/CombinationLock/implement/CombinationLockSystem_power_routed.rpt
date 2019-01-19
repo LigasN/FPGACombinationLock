@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date             : Sat Jan 19 01:33:19 2019
+| Date             : Sat Jan 19 16:59:05 2019
 | Host             : Lenovo-Y50 running 64-bit major release  (build 9200)
 | Command          : report_power -file CombinationLockSystem_power_routed.rpt
 | Design           : CombinationLockSystem
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.134        |
+| Total On-Chip Power (W)  | 0.140        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.037        |
+| Dynamic (W)              | 0.043        |
 | Device Static (W)        | 0.097        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 84.4         |
@@ -53,17 +53,16 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |      371 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      155 |     63400 |            0.24 |
+| Slice Logic    |    <0.001 |      472 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      205 |     63400 |            0.32 |
+|   Register     |    <0.001 |      191 |    126800 |            0.15 |
 |   CARRY4       |    <0.001 |       33 |     15850 |            0.21 |
-|   Register     |    <0.001 |      144 |    126800 |            0.11 |
-|   F7/F8 Muxes  |    <0.001 |        1 |     63400 |           <0.01 |
 |   BUFG         |    <0.001 |        2 |        32 |            6.25 |
 |   Others       |     0.000 |       10 |       --- |             --- |
-| Signals        |    <0.001 |      283 |       --- |             --- |
-| I/O            |     0.034 |       55 |       210 |           26.19 |
+| Signals        |     0.001 |      345 |       --- |             --- |
+| I/O            |     0.039 |       55 |       210 |           26.19 |
 | Static Power   |     0.097 |          |           |                 |
-| Total          |     0.134 |          |           |                 |
+| Total          |     0.140 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -74,8 +73,8 @@ Table of Contents
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
 | Vccint    |       1.000 |     0.018 |       0.003 |      0.015 |
-| Vccaux    |       1.800 |     0.019 |       0.001 |      0.018 |
-| Vcco33    |       3.300 |     0.014 |       0.010 |      0.004 |
+| Vccaux    |       1.800 |     0.020 |       0.001 |      0.018 |
+| Vcco33    |       3.300 |     0.015 |       0.011 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -142,7 +141,7 @@ Table of Contents
 +-----------------------+-----------+
 | Name                  | Power (W) |
 +-----------------------+-----------+
-| CombinationLockSystem |     0.037 |
+| CombinationLockSystem |     0.043 |
 |   U1                  |    <0.001 |
 |   U2                  |     0.001 |
 |   U4                  |    <0.001 |

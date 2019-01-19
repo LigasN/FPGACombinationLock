@@ -28,7 +28,7 @@ end DisplayPrescaler;
 architecture DisplayPrescaler of DisplayPrescaler is
 
 signal divider: std_logic_vector(20 downto 0) := (others => '0');	-- internal divider register	System CLK = 100 000 000
-constant factor: integer := 10000;	-- number by which we divide the time. N_CLK = factor / CLK		Last settings =  20, 10000
+constant factor: integer := 50000;	-- number by which we divide the time. N_CLK = factor / CLK		Last settings =  20, 10000
 
 begin 
 	process (CLK)

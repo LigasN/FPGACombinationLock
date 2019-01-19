@@ -38,7 +38,8 @@ architecture Display of Display is
 	
 	signal RGBW : STD_LOGIC_VECTOR(2 downto 0);
 	signal RGBL : STD_LOGIC_VECTOR(2 downto 0);
-	signal anode : STD_LOGIC_VECTOR(7 downto 0) := "11111110"; 			  
+	signal anode : STD_LOGIC_VECTOR(7 downto 0) := "11111110";
+	signal whole_text : STD_LOGIC_VECTOR(55 downto 0):= (others=>'1');
 	constant led_period: integer := 10000000;			-- white led frequency		  
 	
 	function Binary2SevSeg (binary : in STD_LOGIC_VECTOR(3 downto 0)) return STD_LOGIC_VECTOR is 
@@ -132,33 +133,47 @@ begin
 	begin
 		-----------------------NORMAL TO_DISPLAY-------------------------------- 
 		if SCLK'event and SCLK = '1' then												   										 
-			if anode(0) = '0' then	 
-				anode <= (1 => '0', others => '1');								  
-				SEV_SEG <= (Binary2SevSeg(binary => TO_DISPLAY(3 downto 0)) & anode);
-			elsif anode(1) = '0' then
-				anode <= (2 => '0', others => '1');								  
-				SEV_SEG <= (Binary2SevSeg(binary => TO_DISPLAY(7 downto 4)) & anode);
-			elsif anode(2) = '0' then
-				anode <= (3 => '0', others => '1');								  
-				SEV_SEG <= (Binary2SevSeg(binary => TO_DISPLAY(11 downto 8)) & anode); 
-			elsif anode(3) = '0' then
-				anode <= (4 => '0', others => '1');								  
-				SEV_SEG <= (Binary2SevSeg(binary => TO_DISPLAY(15 downto 12)) & anode); 
-			elsif anode(4) = '0' then
-				anode <= (5 => '0', others => '1');							  
-				SEV_SEG <= "0010010" & anode;	
-			elsif anode(5) = '0' then
-				anode <= (6 => '0', others => '1');							  
-				SEV_SEG <= "0010010" & anode; 
-			elsif anode(6) = '0' then
-				anode <= (7 => '0', others => '1');								  
-				SEV_SEG <= "0001000" & anode; 	
-			elsif anode(7) = '0' then
-				anode <= (0 => '0', others => '1');							  
-				SEV_SEG <= "0001100" & anode; 	
-			end if;	
-			if MESSAGE = "000" then
-				SEV_SEG <= "1111111" & anode; 	   
+			anode <= anode(6 downto 0) & anode(7);
+			-- Remember all letters ar written like "g-f-e-d-c-b-a"
+			if MESSAGE = "000" then	
+				whole_text <= (others => '1');
+			elsif MESSAGE = "001" then -- Filling | Check
+				whole_text <= "0001100" & "0001000" & "0010010" & "0010010" & --PASS
+				Binary2SevSeg(binary => TO_DISPLAY(15 downto 12)) &
+				Binary2SevSeg(binary => TO_DISPLAY(11 downto 8)) &
+				Binary2SevSeg(binary => TO_DISPLAY(7 downto 4)) &
+				Binary2SevSeg(binary => TO_DISPLAY(3 downto 0));
+			elsif MESSAGE = "010" then -- Wrong
+				whole_text <= "1111001" & "1001000" & "1000001" & "0001000" & "1000111" & "1111001" & "1100000" & "1111111";--INVALID											
+			elsif MESSAGE = "011" then -- Well
+				whole_text <= "1000110" & "1000000" & "1001100" & "1001100" & "0000110" & "1000110" & "1111000" & "1111111";--CORRECT
+			elsif MESSAGE = "100" then -- New_filling
+				whole_text <= "0001110" & "1111001" & "1000111" & "1000111" &--FILL
+				Binary2SevSeg(binary => TO_DISPLAY(15 downto 12)) &
+				Binary2SevSeg(binary => TO_DISPLAY(11 downto 8)) &
+				Binary2SevSeg(binary => TO_DISPLAY(7 downto 4)) &
+				Binary2SevSeg(binary => TO_DISPLAY(3 downto 0));
+			elsif MESSAGE = "101" then -- New_Filled
+				whole_text <= "1111111" & "0010010" & "0001000" & "1000001" & "1111001" & "1001000" & "1000010" & "1111111";--SAVING
+			elsif MESSAGE = "111" then -- Alarm_state
+				whole_text <= "1111111" & "0001000" & "1000111" & "0000110" & "1001100" & "1111000" & "1111111" & "1111111";--ALERT
+			end if;				  	
+			if anode(0) = '0' then										  
+				SEV_SEG <= whole_text(6 downto 0) & anode;
+			elsif anode(1) = '0' then									  
+				SEV_SEG <= whole_text(13 downto 7) & anode;
+			elsif anode(2) = '0' then								  
+				SEV_SEG <= whole_text(20 downto 14) & anode;
+			elsif anode(3) = '0' then								  
+				SEV_SEG <= whole_text(27 downto 21) & anode;		  
+			elsif anode(4) = '0' then				 							  		  	 					  
+				SEV_SEG <= whole_text(34 downto 28) & anode;
+			elsif anode(5) = '0' then				 							  	   						  
+				SEV_SEG <= whole_text(41 downto 35) & anode;
+			elsif anode(6) = '0' then				   						  		  	  					  
+				SEV_SEG <= whole_text(48 downto 42) & anode;
+			elsif anode(7) = '0' then	 				 							 					  
+				SEV_SEG <= whole_text(55 downto 49) & anode;  
 			end if;
 		end if;
 	end process;

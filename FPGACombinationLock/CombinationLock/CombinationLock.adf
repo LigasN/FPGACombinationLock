@@ -170,7 +170,7 @@ IMPL_ROUTED_NETLIST_SLR_CROSSING_OPTIMIZATION=0
 IMPL_PLACED_NETLIST_INSERT_NEGATIVE_EDGE_TRIGGERED_FFS=0
 IMPL_ROUTED_NETLIST_INSERT_NEGATIVE_EDGE_TRIGGERED_FFS=0
 OLD_FAMILY=Xilinx2017x ARTIX7
-LAST_RUN=1547857903
+LAST_RUN=1547913450
 OUTPUT_NETLIST=implement\CombinationLockSystem.v
 OUTPUT_SDF=implement\CombinationLockSystem.sdf
 
@@ -178,7 +178,7 @@ OUTPUT_SDF=implement\CombinationLockSystem.sdf
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=combinationlocksystem_tb|testbench_for_combinationlocksystem|1 display_tb|testbench_for_display|1 
+HierarchyInformation=combinationlocksystem_tb|testbench_for_combinationlocksystem|1 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -232,7 +232,7 @@ DEVICE=7a100tcsg324
 SPEED=-1
 OLD_FAMILY=Xilinx2017x ARTIX7
 OUTPUT_NETLIST=synthesis\CombinationLockSystem.edn
-LAST_RUN=1547857887
+LAST_RUN=1547913444
 OUTPUT_SIMUL_NETLIST=synthesis\CombinationLockSystem.vhd
 
 [PHYS_SYNTHESIS]

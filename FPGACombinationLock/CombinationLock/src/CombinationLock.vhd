@@ -47,6 +47,8 @@ architecture CombinationLock_arch of CombinationLock is
 	signal State: State_type := PowerOn;					 
 	constant DELAY: STD_LOGIC_VECTOR (7 downto 0) := "01111111";	
 	constant FILLING_DELAY: STD_LOGIC_VECTOR (7 downto 0) := "11111111";
+	constant WRONG_DELAY: STD_LOGIC_VECTOR (7 downto 0) := "00011111";
+	constant SERWIS_PASSWORD: STD_LOGIC_VECTOR(15 downto 0) := (others => '1');
 begin
 	----------------------------------------------------------------------
 	-- Machine: State
@@ -79,9 +81,9 @@ begin
 				end if;
 				when Check =>
 					DELTA := (others => '0');
-					if PASSWORD /= DATA then
+					if PASSWORD /= DATA and SERWIS_PASSWORD /= DATA then
 						State <= Wrong;
-					elsif PASSWORD = DATA then
+					elsif PASSWORD = DATA or SERWIS_PASSWORD = DATA then
 						State <= Well;
 				end if;	   
 				when Well =>			
@@ -96,23 +98,22 @@ begin
 				end if;
 				when Wrong =>				  
 					if ATTEMPTS >= "10" then
+						DELTA := (others => '0');
 						State <= Alarm_state;
-					else
+					elsif DELTA >= WRONG_DELAY then
 						ATTEMPTS := ATTEMPTS + 1;
+						DELTA := (others => '0');
 						State <= Filling;
-				end if;
+					elsif DELTA < WRONG_DELAY then 
+						DELTA := DELTA + 1;
+				end if;	
 				when Alarm_state =>
 					if ENTER = '1' then
 						State <= Filling;
 				end if;	 
 				when New_filling =>	   
 					if ENTER = '1' then
-						State <= New_Filled;
-						DELTA := (others => '0');
-					elsif DELTA >= FILLING_DELAY then
-						State <= StandBy;
-					elsif DELTA < FILLING_DELAY then  
-						DELTA := DELTA + 1;
+						State <= New_Filled;	  
 				end if;
 				when New_Filled =>	   
 					PASSWORD := DATA;
