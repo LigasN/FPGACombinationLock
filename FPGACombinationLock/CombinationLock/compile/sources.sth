@@ -1,3 +1,5 @@
+[DRC Time]
+d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockSystem.bde=D
 [Files List]
 D:\Programs\Aldec\vlib\std/src/standard.vhd=S
 D:\Programs\Aldec\vlib\std/src/textio.vhd=S
@@ -10,8 +12,10 @@ D:\Programs\Aldec\vlib\ieee/src/unsigned_b.vhd=S
 D:\Programs\Aldec\vlib\ieee/src/signed_p.vhd=S
 D:\Programs\Aldec\vlib\ieee/src/signed_b.vhd=S
 d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock/src/Debouncer.vhd=S
+d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock/src/DisplayPrescaler.vhd=S
 d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock/src/Prescaler.vhd=S
 d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock/src/Display.vhd=S
 d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock/compile/CombinationLock.vhd=S
+d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock/src/CombinationLock.vhd=S
 d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock/compile/CombinationLockSystem.vhd=S
 d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock/src/TestBench/CombinationLockSystem_TB.vhd=S

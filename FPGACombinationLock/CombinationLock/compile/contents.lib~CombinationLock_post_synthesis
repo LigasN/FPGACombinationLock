@@ -1,4 +1,4 @@
-31
+130
 ~E 0 "" 0 CombinationLock
 ~A 0 "" 0 combinationlock_arch
 ~A 0 "" 0 structure
@@ -12,6 +12,8 @@
 ~A 0 "" 0 structure
 ~E 0 "" 0 Display
 ~A 0 "" 0 display
+~A 0 "" 0 structure
+~E 0 "" 0 DisplayPrescaler
 ~A 0 "" 0 structure
 ~E 0 "" 0 Prescaler
 ~A 0 "" 0 prescaler

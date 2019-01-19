@@ -1,11 +1,12 @@
-.\src\CombinationLock.asf
+.\src\CombinationLock.vhd
 .\src\Display.vhd
 .\src\Debouncer.vhd
 .\src\Prescaler.vhd
+.\src\DisplayPrescaler.vhd
+.\src\PASS_WORD_GEN.vhd
 .\src\CombinationLockSystem.bde
+.\src\TestBench\Display_TB.vhd
 .\src\TestBench\CombinationLockSystem_TB.vhd
 .\synthesis\CombinationLockSystem.vhd
-.\synthesis\CombinationLock.vhd
-.\implement\CombinationLock.v
-.\implement\glbl.v
 .\implement\CombinationLockSystem.v
+.\implement\glbl.v

@@ -1,16 +1,27 @@
-896
+1372
 ~E 1 "./../compile/CombinationLock.vhd" 26 CombinationLock
-~A 1 "./../compile/CombinationLock.vhd" 37 CombinationLock_arch
-~E 1 "./../compile/combinationlocksystem.vhd" 27 CombinationLockSystem
-~A 1 "./../compile/combinationlocksystem.vhd" 39 CombinationLockSystem
+~A 1 "./../src/CombinationLock.vhd" 29 CombinationLock_arch
+~E 1 "./../compile/CombinationLockSystem.vhd" 27 CombinationLockSystem
+~A 1 "./../compile/CombinationLockSystem.vhd" 38 CombinationLockSystem
 ~E 1 "./../src/TestBench/CombinationLockSystem_TB.vhd" 28 CombinationLockSystem_TB
-~A 1 "./../src/TestBench/CombinationLockSystem_TB.vhd" 33 TB_ARCHITECTURE
+~A 1 "./../src/TestBench/CombinationLockSystem_TB.vhd" 27 TB_ARCHITECTURE
 ~E 1 "./../src/Debouncer.vhd" 15 Debouncer
 ~A 1 "./../src/Debouncer.vhd" 23 Debouncer
-~E 1 "./../src/Display.vhd" 28 Display
-~A 1 "./../src/Display.vhd" 36 Display
+~E 1 "./../src/Display.vhd" 25 Display
+~A 1 "./../src/Display.vhd" 37 Display
+~E 1 "./../src/TestBench/Display_TB.vhd" 22 Display_TB
+~A 1 "./../src/TestBench/Display_TB.vhd" 27 TB_ARCHITECTURE
+~E 1 "./../src/DisplayPrescaler.vhd" 19 DisplayPrescaler
+~A 1 "./../src/DisplayPrescaler.vhd" 28 DisplayPrescaler
+~E 0 "" 0 Fub1
+~A 0 "" 0 fub1
 ~E 0 "" 0 Fub3
-~A 0 "" 0 Debouncer
+~A 0 "" 0 debouncer
+~E 0 "" 0 PASS_WORD
+~A 0 "" 0 PASS_WORD
+~E 1 "./../src/PASS_WORD_GEN.vhd" 29 PASS_WORD_GEN
+~A 1 "./../src/PASS_WORD_GEN.vhd" 36 PASS_WORD_GEN
 ~E 1 "./../src/Prescaler.vhd" 19 Prescaler
 ~A 1 "./../src/Prescaler.vhd" 28 Prescaler
-~C 1 "./../src/TestBench/CombinationLockSystem_TB.vhd" 182 testbench_for_combinationlocksystem
+~C 1 "./../src/TestBench/CombinationLockSystem_TB.vhd" 174 testbench_for_combinationlocksystem
+~C 1 "./../src/TestBench/Display_TB.vhd" 124 testbench_for_display

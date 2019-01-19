@@ -1,9 +1,9 @@
-create_project -force CombinationLockSystem {D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\implement} -part 7a100tcsg324-1
+create_project -force CombinationLockSystem {d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\implement} -part 7a100tcsg324-1
 set_property design_mode GateLvl [current_fileset]
 set_property top CombinationLockSystem [current_fileset]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-add_files -norecurse {D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.edn}
-read_xdc {D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.xdc}
+add_files -norecurse {d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.edn}
+read_xdc {d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.xdc}
 link_design
 
 opt_design -verbose -directive Default

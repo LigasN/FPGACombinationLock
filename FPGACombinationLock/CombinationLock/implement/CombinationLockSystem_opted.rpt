@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date         : Fri Jan 11 22:08:51 2019
+| Date         : Sat Jan 19 01:32:18 2019
 | Host         : Lenovo-Y50 running 64-bit major release  (build 9200)
 | Command      : report_drc -file CombinationLockSystem_opted.rpt
 | Design       : CombinationLockSystem
@@ -24,12 +24,11 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 12
+             Violations found: 1
 +----------+----------+-----------------------------------------------------+------------+
 | Rule     | Severity | Description                                         | Violations |
 +----------+----------+-----------------------------------------------------+------------+
 | CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
-| IOSR-1   | Warning  | IOB set reset sharing                               | 11         |
 +----------+----------+-----------------------------------------------------+------------+
 
 2. REPORT DETAILS
@@ -45,61 +44,6 @@ Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_des
  #where value2 is the voltage provided to configuration bank 0
 
 Refer to the device configuration user guide for more information.
-Related violations: <none>
-
-IOSR-1#1 Warning
-IOB set reset sharing  
-IO DATA[0] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#2 Warning
-IOB set reset sharing  
-IO DATA[10] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#3 Warning
-IOB set reset sharing  
-IO DATA[1] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#4 Warning
-IOB set reset sharing  
-IO DATA[2] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#5 Warning
-IOB set reset sharing  
-IO DATA[3] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#6 Warning
-IOB set reset sharing  
-IO DATA[4] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#7 Warning
-IOB set reset sharing  
-IO DATA[5] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#8 Warning
-IOB set reset sharing  
-IO DATA[6] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#9 Warning
-IOB set reset sharing  
-IO DATA[7] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#10 Warning
-IOB set reset sharing  
-IO DATA[8] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-Related violations: <none>
-
-IOSR-1#11 Warning
-IOB set reset sharing  
-IO DATA[9] connects to flops which have these U1/DISPLAY_reg[15]_i_2_n_0, U1/PASSWORD[10]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 

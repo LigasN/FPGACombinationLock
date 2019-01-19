@@ -22,7 +22,7 @@ end Debouncer;
 
 architecture Debouncer of Debouncer is
 
-signal delay : std_logic_vector(2 downto 0) := (others => '0');		-- debounce register
+signal DELAY : std_logic_vector(2 downto 0) := (others => '0');		-- debounce register
 
 begin
 	process(CLK)

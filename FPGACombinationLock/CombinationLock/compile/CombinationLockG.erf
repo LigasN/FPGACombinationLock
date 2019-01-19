@@ -1,0 +1,5 @@
+MESSAGE "Loading State Diagram data..."
+MESSAGE "Generating d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLockG.vhd from d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockG.asf"
+MESSAGE "Synthesis attributes will be generated for Synopsys FPGA Express"
+MESSAGE "Generating interface file..."
+SUCCESS "HDL code generation successful. 0 error(s), 0 warning(s)"

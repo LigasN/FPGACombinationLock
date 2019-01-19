@@ -46,7 +46,7 @@ PAGE_DEFAULT_WIDTH
 2200
 ##########
 PRIMARY DESIGN LIBRARY
-combinationlock
+CombinationLock
 ##########
 USE GLOBAL DEFAULTS
 1

@@ -2,20 +2,19 @@ MESSAGE "Pass 1. Scanning modules hierarchy."
 BEGINPROGRESS Compiling...
 UPDATEPROGRESS 17
 UPDATEPROGRESS 35
-WARNING VCP2515 "Undefined module: GND was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 38  20
-WARNING VCP2515 "Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 45  17
-WARNING VCP2515 "Undefined module: LDCE was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 60  16
-WARNING VCP2515 "Undefined module: VCC was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 62  20
-WARNING VCP2515 "Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 178  36
-WARNING VCP2515 "Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 197  23
-WARNING VCP2515 "Undefined module: FDRE was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 205  19
-WARNING VCP2515 "Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 216  28
-WARNING VCP2515 "Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 219  23
-WARNING VCP2515 "Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 293  24
-WARNING VCP2515 "Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 318  20
-WARNING VCP2515 "Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 371  25
-WARNING VCP2515 "Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 795  23
-WARNING VCP2515 "Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations." "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLock.v" 842  156
+WARNING VCP2515 "Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 146  36
+WARNING VCP2515 "Undefined module: FDRE was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 164  19
+WARNING VCP2515 "Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 198  33
+WARNING VCP2515 "Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 215  33
+WARNING VCP2515 "Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 233  33
+WARNING VCP2515 "Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 252  33
+WARNING VCP2515 "Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 615  94
+WARNING VCP2515 "Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 1156  28
+WARNING VCP2515 "Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 1159  23
+WARNING VCP2515 "Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 1213  22
+WARNING VCP2515 "Undefined module: FDSE was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 2247  20
+WARNING VCP2515 "Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 2276  21
+WARNING VCP2515 "Undefined module: LUT1 was used. Port connection rules will not be checked at such instantiations." "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/implement/CombinationLockSystem.v" 2528  47
 MESSAGE "Pass 2. Processing instantiations."
 UPDATEPROGRESS 36
 UPDATEPROGRESS 37
@@ -25,10 +24,11 @@ UPDATEPROGRESS 40
 UPDATEPROGRESS 41
 UPDATEPROGRESS 42
 UPDATEPROGRESS 43
-UPDATEPROGRESS 44
 UPDATEPROGRESS 45
 MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 53
 UPDATEPROGRESS 62
+UPDATEPROGRESS 71
 UPDATEPROGRESS 80
 MESSAGE "Running Optimizer."
 MESSAGE "ELB/DAG code generating."
@@ -50,10 +50,10 @@ UPDATEPROGRESS 95
 UPDATEPROGRESS 96
 UPDATEPROGRESS 97
 UPDATEPROGRESS 98
-MESSAGE "Unit top modules: CombinationLock glbl."
-MESSAGE "$root top modules: CombinationLock glbl."
+MESSAGE "Unit top modules: CombinationLockSystem glbl."
+MESSAGE "$root top modules: CombinationLockSystem glbl."
 UPDATEPROGRESS 100
 ENDPROGRESS Compiling...
-SUCCESS "Compile success 0 Errors 14 Warnings  Analysis time: 0[s]."
+SUCCESS "Compile success 0 Errors 13 Warnings  Analysis time: 0[s]."
 WARNING ALOG: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
 MESSAGE "done"

@@ -1,5 +1,8 @@
-i<>.\src\CombinationLock.asf
+i<>.\src\CombinationLock.vhd
 i<>.\src\Display.vhd
 i<>.\src\Debouncer.vhd
 i<>.\src\Prescaler.vhd
+i<>.\src\DisplayPrescaler.vhd
+i<>.\src\PASS_WORD_GEN.vhd
 i<>.\src\CombinationLockSystem.bde
+i<>.\src\TestBench\Display_TB.vhd

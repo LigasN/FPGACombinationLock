@@ -1,7 +1,17 @@
-3
-~M 2 "" 0 CombinationLock
+73
+~M 0 "" 0 CombinationLock
 ~A 0 "" 0 CombinationLock
+~M 2 "" 0 CombinationLockSystem
+~A 0 "" 0 CombinationLockSystem
+~M 0 "" 0 Debouncer
+~A 0 "" 0 Debouncer
+~M 0 "" 0 Display
+~A 0 "" 0 Display
+~M 0 "" 0 DisplayPrescaler
+~A 0 "" 0 DisplayPrescaler
 ~M 0 "" 0 LDCP_UNIQ_BASE_
 ~A 0 "" 0 LDCP_UNIQ_BASE_
+~M 0 "" 0 Prescaler
+~A 0 "" 0 Prescaler
 ~M 2 "" 0 glbl
 ~A 0 "" 0 glbl

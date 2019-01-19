@@ -25,10 +25,11 @@ use IEEE.STD_LOGIC_UNSIGNED.all;
 entity Display is 
 	port(
 		CLK : in STD_LOGIC;
+		SCLK : in STD_LOGIC;
 		MESSAGE : in STD_LOGIC_VECTOR(2 downto 0);
-		DISPLAY : in STD_LOGIC_VECTOR(15 downto 0);
+		TO_DISPLAY : in STD_LOGIC_VECTOR(15 downto 0);
 		RGB_LEDS : out STD_LOGIC_VECTOR(5 downto 0);
-		SEV_SEG : out STD_LOGIC_VECTOR(10 downto 0));	 
+		SEV_SEG : out STD_LOGIC_VECTOR(14 downto 0));	 
 end Display;
 
 --}} End of automatically maintained section
@@ -37,7 +38,7 @@ architecture Display of Display is
 	
 	signal RGBW : STD_LOGIC_VECTOR(2 downto 0);
 	signal RGBL : STD_LOGIC_VECTOR(2 downto 0);
-	signal anode : STD_LOGIC_VECTOR(3 downto 0) := "0000"; 
+	signal anode : STD_LOGIC_VECTOR(7 downto 0) := "11111110"; 			  
 	constant led_period: integer := 10000000;			-- white led frequency		  
 	
 	function Binary2SevSeg (binary : in STD_LOGIC_VECTOR(3 downto 0)) return STD_LOGIC_VECTOR is 
@@ -45,25 +46,37 @@ architecture Display of Display is
 	begin
 		-- seg A - sev_seg[0] -- seg B - sev_seg[1] -- seg C -- sev_seg[2] etc.
 		if binary = 0 then
-			sev_seg := (6 => '0', others => '1');
+			sev_seg := (6 => '1', others => '0');
 		elsif binary = 1 then
-			sev_seg := (1 => '1', 2 => '1', others => '0'); 
+			sev_seg := (1 => '0', 2 => '0', others => '1'); 
 		elsif binary = 2 then
-			sev_seg := (2 => '0', 5 => '0', others => '1');
+			sev_seg := (2 => '1', 5 => '1', others => '0');
 		elsif binary = 3 then 
-			sev_seg := (4 => '0', 5 => '0', others => '1');
+			sev_seg := (4 => '1', 5 => '1', others => '0');
 		elsif binary = 4 then
-			sev_seg := (0 => '0', 3 => '0', 4 => '0', others => '1');
+			sev_seg := (0 => '1', 3 => '1', 4 => '1', others => '0');
 		elsif binary = 5 then 
-			sev_seg := (1 => '0', 4 => '0', others => '1');
+			sev_seg := (1 => '1', 4 => '1', others => '0');
 		elsif binary = 6 then
-			sev_seg := (1 => '0', others => '1');
+			sev_seg := (1 => '1', others => '0');
 		elsif binary = 7 then
-			sev_seg := (0 => '1', 1 => '1', 2 => '1', others => '0');
+			sev_seg := (0 => '0', 1 => '0', 2 => '0', others => '1');
 		elsif binary = 8 then
-			sev_seg := (others => '1');
+			sev_seg := (others => '0');
 		elsif binary = 9 then
-			sev_seg := (4 => '0', others => '1');
+			sev_seg := (4 => '1', others => '0'); 
+		elsif binary = 10 then
+			sev_seg := (3 => '1', others => '0');
+		elsif binary = 11 then
+			sev_seg := (0 => '1', 1 => '1', others => '0');
+		elsif binary = 12 then
+			sev_seg := (1 => '1', 2 => '1', 6 => '1', others => '0');
+		elsif binary = 13 then
+			sev_seg := (0 => '1', 5 => '1', others => '0');
+		elsif binary = 14 then
+			sev_seg := (1 => '1', 2 => '1', others => '0');
+		elsif binary = 15 then
+			sev_seg := (1 => '1', 2 => '1', 3 => '1', others => '0');
 		end if;
 		
 		return sev_seg;
@@ -113,19 +126,39 @@ begin
 				blinkingW := '1';		   
 				RGBL <= (0 => '1', others => '0');
 			end if;
-			-----------------------NORMAL DISPLAY--------------------------------
-			if anode(3) = '1' or anode = "0000" then
-				anode <= (0 => '1', others => '0');
-				SEV_SEG <= (Binary2SevSeg(binary => DISPLAY(3 downto 0)) & anode);
-			elsif anode(0) = '1' then	 
-				anode <= (1 => '1', others => '0');								  
-				SEV_SEG <= (Binary2SevSeg(binary => DISPLAY(7 downto 4)) & anode);
-			elsif anode(1) = '1' then
-				anode <= (2 => '1', others => '0');								  
-				SEV_SEG <= (Binary2SevSeg(binary => DISPLAY(11 downto 8)) & anode);
-			elsif anode(2) = '1' then
-				anode <= (3 => '1', others => '0');								  
-				SEV_SEG <= (Binary2SevSeg(binary => DISPLAY(15 downto 12)) & anode);
+		end if;
+	end process;	 
+	process (SCLK)
+	begin
+		-----------------------NORMAL TO_DISPLAY-------------------------------- 
+		if SCLK'event and SCLK = '1' then												   										 
+			if anode(0) = '0' then	 
+				anode <= (1 => '0', others => '1');								  
+				SEV_SEG <= (Binary2SevSeg(binary => TO_DISPLAY(3 downto 0)) & anode);
+			elsif anode(1) = '0' then
+				anode <= (2 => '0', others => '1');								  
+				SEV_SEG <= (Binary2SevSeg(binary => TO_DISPLAY(7 downto 4)) & anode);
+			elsif anode(2) = '0' then
+				anode <= (3 => '0', others => '1');								  
+				SEV_SEG <= (Binary2SevSeg(binary => TO_DISPLAY(11 downto 8)) & anode); 
+			elsif anode(3) = '0' then
+				anode <= (4 => '0', others => '1');								  
+				SEV_SEG <= (Binary2SevSeg(binary => TO_DISPLAY(15 downto 12)) & anode); 
+			elsif anode(4) = '0' then
+				anode <= (5 => '0', others => '1');							  
+				SEV_SEG <= "0010010" & anode;	
+			elsif anode(5) = '0' then
+				anode <= (6 => '0', others => '1');							  
+				SEV_SEG <= "0010010" & anode; 
+			elsif anode(6) = '0' then
+				anode <= (7 => '0', others => '1');								  
+				SEV_SEG <= "0001000" & anode; 	
+			elsif anode(7) = '0' then
+				anode <= (0 => '0', others => '1');							  
+				SEV_SEG <= "0001100" & anode; 	
+			end if;	
+			if MESSAGE = "000" then
+				SEV_SEG <= "1111111" & anode; 	   
 			end if;
 		end if;
 	end process;

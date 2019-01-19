@@ -1,9 +1,12 @@
-create_project -force CombinationLockSystem {D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis} -part 7a100tcsg324-1
-add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd}
+create_project -force CombinationLockSystem {d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis} -part 7a100tcsg324-1
+add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/CombinationLock.vhd}
 add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Display.vhd}
 add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Debouncer.vhd}
 add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Prescaler.vhd}
+add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/DisplayPrescaler.vhd}
+add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/PASS_WORD_GEN.vhd}
 add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/combinationlocksystem.vhd}
+add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/TestBench/Display_TB.vhd}
 set_property top CombinationLockSystem [current_fileset]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 

@@ -5,7 +5,7 @@ version=4
 Current Config=compile
 
 [Configurations]
-compile=combinationlock
+compile=CombinationLock
 
 [Library]
 CombinationLock=.\CombinationLock\CombinationLock.lib
@@ -170,7 +170,7 @@ IMPL_ROUTED_NETLIST_SLR_CROSSING_OPTIMIZATION=0
 IMPL_PLACED_NETLIST_INSERT_NEGATIVE_EDGE_TRIGGERED_FFS=0
 IMPL_ROUTED_NETLIST_INSERT_NEGATIVE_EDGE_TRIGGERED_FFS=0
 OLD_FAMILY=Xilinx2017x ARTIX7
-LAST_RUN=1547240895
+LAST_RUN=1547857903
 OUTPUT_NETLIST=implement\CombinationLockSystem.v
 OUTPUT_SDF=implement\CombinationLockSystem.sdf
 
@@ -178,7 +178,7 @@ OUTPUT_SDF=implement\CombinationLockSystem.sdf
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=combinationlocksystem_tb|testbench_for_combinationlocksystem|1 display_tb|testbench_for_display|1 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -232,7 +232,7 @@ DEVICE=7a100tcsg324
 SPEED=-1
 OLD_FAMILY=Xilinx2017x ARTIX7
 OUTPUT_NETLIST=synthesis\CombinationLockSystem.edn
-LAST_RUN=1547240614
+LAST_RUN=1547857887
 OUTPUT_SIMUL_NETLIST=synthesis\CombinationLockSystem.vhd
 
 [PHYS_SYNTHESIS]
@@ -249,61 +249,67 @@ REPORT=
 [SIM.POST]
 TOPLEVEL=CombinationLockSystem
 
+[SIM.TIME]
+TOPLEVEL=CombinationLock glbl
+SDF_PATH=implement\CombinationLockSystem.sdf
+
+[sdf.c.testbench_for_combinationlocksystem]
+0=implement\CombinationLockSystem.sdf| /CombinationLockSystem_TB/UUT, Average, No
+
 [Groups]
 TestBench=1
 post-synthesis=1
 timing=1
 
-[SIM.TIME]
-TOPLEVEL=CombinationLock glbl
-SDF_PATH=implement\CombinationLockSystem.sdf
-
 [Files]
-/CombinationLock.asf=-1
+/CombinationLock.vhd=-1
 /Display.vhd=-1
 /Debouncer.vhd=-1
 /Prescaler.vhd=-1
+/DisplayPrescaler.vhd=-1
+/PASS_WORD_GEN.vhd=-1
 /CombinationLockSystem.bde=-1
 /passedTest.asdb=-1
 /passedTest.awc=-1
 /CombinationLock.xdc=-1
-/CombinationLockOnlyLockTest.xdc=-1
+/DisplayTest.asdb=-1
+/DisplayTest.awc=-1
+/system.asdb=-1
+/system.awc=-1
+TestBench/Display_TB.vhd=-1
+TestBench/Display_TB_runtest.do=-1
 TestBench/CombinationLockSystem_TB.vhd=-1
 TestBench/CombinationLockSystem_TB_runtest.do=-1
 post-synthesis/..\..\synthesis\CombinationLockSystem.edn=-1
 post-synthesis/..\..\synthesis\CombinationLockSystem.vhd=-1
-post-synthesis/..\..\synthesis\CombinationLock.edn=-1
-post-synthesis/..\..\synthesis\CombinationLock.vhd=-1
-timing/..\..\implement\CombinationLock.v=-1
-timing/..\..\implement\CombinationLock.sdf=-1
-timing/..\..\implement\glbl.v=-1
 timing/..\..\implement\CombinationLockSystem.v=-1
 timing/..\..\implement\CombinationLockSystem.sdf=-1
+timing/..\..\implement\glbl.v=-1
 
 [Files.Data]
-.\src\CombinationLock.asf=State Diagram
+.\src\CombinationLock.vhd=VHDL Source Code
 .\src\Display.vhd=VHDL Source Code
 .\src\Debouncer.vhd=VHDL Source Code
 .\src\Prescaler.vhd=VHDL Source Code
+.\src\DisplayPrescaler.vhd=VHDL Source Code
+.\src\PASS_WORD_GEN.vhd=VHDL Source Code
 .\src\CombinationLockSystem.bde=Block Diagram
 .\src\passedTest.asdb=Accelerated Waveform File
 .\src\passedTest.awc=Accelerated Waveform Configuration
 .\src\CombinationLock.xdc=Text File
-.\src\CombinationLockOnlyLockTest.xdc=Text File
+.\src\DisplayTest.asdb=Accelerated Waveform File
+.\src\DisplayTest.awc=Accelerated Waveform Configuration
+.\src\system.asdb=Accelerated Waveform File
+.\src\system.awc=Accelerated Waveform Configuration
+.\src\TestBench\Display_TB.vhd=VHDL Source Code
+.\src\TestBench\Display_TB_runtest.do=Macro
 .\src\TestBench\CombinationLockSystem_TB.vhd=VHDL Test Bench
 .\src\TestBench\CombinationLockSystem_TB_runtest.do=Macro
 .\synthesis\CombinationLockSystem.edn=EDIF Netlist
 .\synthesis\CombinationLockSystem.vhd=VHDL Source Code
-.\synthesis\CombinationLock.edn=EDIF Netlist
-.\synthesis\CombinationLock.vhd=VHDL Source Code
-.\implement\CombinationLock.v=VERILOG SOURCE CODE
-.\implement\CombinationLock.sdf=SDF FILE
-.\implement\glbl.v=VERILOG SOURCE CODE
 .\implement\CombinationLockSystem.v=VERILOG SOURCE CODE
 .\implement\CombinationLockSystem.sdf=SDF FILE
-
-[file_out:/CombinationLock.asf]
-/..\compile\CombinationLock.vhd=-1
+.\implement\glbl.v=VERILOG SOURCE CODE
 
 [file_out:/CombinationLockSystem.bde]
 /..\compile\CombinationLockSystem.vhd=-1

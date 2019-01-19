@@ -5,13 +5,7 @@
 -- Author      : Norbert
 -- Company     : University of Science and Technology
 --
--------------------------------------------------------------------------------
---
--- Generated   : Wed Dec 18 22:37:13 2019
--- From        : interface description file
--- By          : Itf2Vhdl ver. 1.22
---
--------------------------------------------------------------------------------
+-------------------------------------------------------------------------------	  
 --
 -- Description : 
 --
@@ -35,10 +29,9 @@ architecture TB_ARCHITECTURE of CombinationLockSystem_TB is
 		port (
 			CLK : in STD_LOGIC;
 			ENTER : in STD_LOGIC;
-			DATA : in STD_LOGIC_VECTOR(15 downto 0);
-			UNLOCK : inout STD_LOGIC;
+			DATA : in STD_LOGIC_VECTOR(15 downto 0);	 
 			RGB_LEDS : out STD_LOGIC_VECTOR(5 downto 0);
-			SEV_SEG : out STD_LOGIC_VECTOR(10 downto 0);
+			SEV_SEG : out STD_LOGIC_VECTOR(14 downto 0);
 			LEDS : out STD_LOGIC_VECTOR(15 downto 0) );
 	end component;
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
@@ -46,9 +39,8 @@ architecture TB_ARCHITECTURE of CombinationLockSystem_TB is
 	signal ENTER : STD_LOGIC;
 	signal DATA : STD_LOGIC_VECTOR(15 downto 0);
 	-- Observed signals - signals mapped to the output ports of tested entity
-	signal UNLOCK : STD_LOGIC;
 	signal RGB_LEDS : STD_LOGIC_VECTOR(5 downto 0);
-	signal SEV_SEG : STD_LOGIC_VECTOR(10 downto 0);
+	signal SEV_SEG : STD_LOGIC_VECTOR(14 downto 0);
 	signal LEDS : STD_LOGIC_VECTOR(15 downto 0);
 	
 	--Signal is used to stop clock signal generators
@@ -61,8 +53,7 @@ begin
 	port map (
 		CLK => CLK,
 		ENTER => ENTER,
-		DATA => DATA,
-		UNLOCK => UNLOCK,
+		DATA => DATA,	  
 		RGB_LEDS => RGB_LEDS,
 		SEV_SEG => SEV_SEG,
 		LEDS => LEDS
@@ -71,6 +62,7 @@ begin
 	STIMULUS: process 							   
 	begin	 
 		-- init 
+		DATA <=	(others=>'0');
 		ENTER <= '1';
 		wait for 4 * clock_period * prescaler_factor;
 		ENTER <= '0';
@@ -81,7 +73,7 @@ begin
 		ENTER <= '0';
 		wait for 4 * clock_period * prescaler_factor;
 		--first attempt
-		DATA <=	"1000100010001000";
+		DATA <=	"1000100100100111";
 		wait for 10 * clock_period * prescaler_factor;
 		ENTER <= '1';
 		wait for 4 * clock_period * prescaler_factor;

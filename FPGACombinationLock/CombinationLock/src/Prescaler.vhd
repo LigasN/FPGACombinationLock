@@ -27,8 +27,8 @@ end Prescaler;
 
 architecture Prescaler of Prescaler is
 
-signal divider: std_logic_vector(23 downto 0) := (others => '0');	-- internal divider register
-constant factor: integer := 10000000;	-- number by which we divide the time. N_CLK = CLK * factor
+signal divider: std_logic_vector(27 downto 0) := (others => '0');	-- internal divider register   System CLK = 100 000 000 Hz
+constant factor: integer := 10000000;	-- number by which we divide the time. N_CLK[s] = factor / CLK	 Last settings = 27, 10000000
 
 begin 
 	process (CLK)

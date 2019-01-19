@@ -1,0 +1,45 @@
+<config>
+    <version>
+        2.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="142d27e0dadb78cc405c3d6ee1090100">DisplayTest.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/Display_TB/CLK</signal>
+        <signal>/Display_TB/SCLK</signal>
+        <signal>/Display_TB/MESSAGE</signal>
+        <signal>/Display_TB/TO_DISPLAY</signal>
+        <signal>/Display_TB/RGB_LEDS</signal>
+        <signal>/Display_TB/SEV_SEG</signal>
+        </signallist>
+    </signallists>
+    <prefbases>
+        <prefbase id="0" >
+            <pref name="End Time" value="204860" />
+            <pref name="Start Time" value="0" />
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="130687" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>
