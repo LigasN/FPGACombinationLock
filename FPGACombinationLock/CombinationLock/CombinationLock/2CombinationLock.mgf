@@ -1,0 +1,2845 @@
+I 000046 40 391 1576449540833 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="33b64d20-5659-4dd7-99cc-fefdbfb34467"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,440)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,340,440)
+  }
+ }
+}
+I 000038 40 383 1576449540855 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,240)
+  }
+ }
+}
+I 000035 40 380 1576449540874 lock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Lock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="abc9a129-e505-4295-841a-27b4b43e7d69"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,220)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,220)
+  }
+ }
+}
+I 000046 40 391 1576449645577 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="33b64d20-5659-4dd7-99cc-fefdbfb34467"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,440)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,340,440)
+  }
+ }
+}
+I 000038 40 383 1576449645591 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,240)
+  }
+ }
+}
+I 000035 40 380 1576449645610 lock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Lock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="abc9a129-e505-4295-841a-27b4b43e7d69"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,220)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,220)
+  }
+ }
+}
+I 000046 40 391 1576449647875 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="33b64d20-5659-4dd7-99cc-fefdbfb34467"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,440)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,340,440)
+  }
+ }
+}
+I 000038 40 383 1576449647890 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,240)
+  }
+ }
+}
+I 000035 40 380 1576449647905 lock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Lock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="abc9a129-e505-4295-841a-27b4b43e7d69"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,220)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,220)
+  }
+ }
+}
+I 000035 40 344 1576610956984 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Fub1"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,440)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,340,440)
+  }
+ }
+}
+I 000038 40 383 1576610957015 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,240)
+  }
+ }
+}
+I 000035 40 380 1576610957046 lock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Lock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="abc9a129-e505-4295-841a-27b4b43e7d69"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,220)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,220)
+  }
+ }
+}
+I 000035 40 344 1576610990670 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Fub1"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,440)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,340,440)
+  }
+ }
+}
+I 000047 40 3694 1576611080183 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1576611080"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,440)
+  FREEID 18
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,340,440)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (15,28,44,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (15,68,55,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (15,108,119,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (15,148,82,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (257,28,325,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (191,68,325,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (222,108,325,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (244,148,325,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CE"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DATA(15:0)"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ENTER"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ALARM"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DISPLAY(27:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="LEDS(15:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="UNLOCK"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+ }
+}
+I 000047 40 3703 1576611156010 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1576611155"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (60,0,340,200)
+  FREEID 19
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (60,0,340,199)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,28,104,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,68,115,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,108,179,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,148,142,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (257,28,325,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (191,68,325,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (222,108,325,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (244,148,325,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CE"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DATA(15:0)"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ENTER"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ALARM"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DISPLAY(27:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="LEDS(15:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="UNLOCK"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+ }
+}
+I 000047 40 3703 1576611373859 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1576611155"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (60,0,340,200)
+  FREEID 19
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (60,0,340,199)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,28,104,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,68,115,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,108,179,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,148,142,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (257,28,325,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (191,68,325,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (222,108,325,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (244,148,325,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CE"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DATA(15:0)"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ENTER"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ALARM"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DISPLAY(27:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="LEDS(15:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="UNLOCK"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+ }
+}
+I 000038 40 383 1576611373876 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,240)
+  }
+ }
+}
+I 000035 40 380 1576611373892 lock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Lock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="abc9a129-e505-4295-841a-27b4b43e7d69"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,220)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,220)
+  }
+ }
+}
+I 000047 40 3703 1576611822571 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1576611155"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (60,0,340,200)
+  FREEID 19
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (60,0,340,199)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,28,104,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,68,115,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,108,179,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,148,142,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (257,28,325,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (191,68,325,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (222,108,325,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (244,148,325,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CE"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DATA(15:0)"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ENTER"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ALARM"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DISPLAY(27:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="LEDS(15:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="UNLOCK"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+ }
+}
+I 000038 40 383 1576611822588 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,240)
+  }
+ }
+}
+I 000035 40 380 1576611822604 lock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Lock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="abc9a129-e505-4295-841a-27b4b43e7d69"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,220)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,220)
+  }
+ }
+}
+I 000038 40 383 1576611965715 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,240)
+  }
+ }
+}
+I 000038 40 383 1576612949798 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,240)
+  }
+ }
+}
+I 000047 40 3703 1576614991709 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1576611155"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (60,0,340,200)
+  FREEID 19
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (60,0,340,199)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,28,104,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,68,115,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,108,179,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,148,142,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (257,28,325,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (191,68,325,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (222,108,325,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (244,148,325,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CE"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DATA(15:0)"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ENTER"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ALARM"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DISPLAY(27:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="LEDS(15:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="UNLOCK"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+ }
+}
+I 000038 40 452 1576614991729 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,140,140)
+  FREEID 4
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,140,140)
+  }
+ }
+}
+I 000047 40 3313 1576615039634 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1576615039"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (60,0,340,200)
+  FREEID 19
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (60,0,340,199)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,68,115,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,108,179,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,148,142,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (257,28,325,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (191,68,325,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (222,108,325,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (244,148,325,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DATA(15:0)"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ENTER"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ALARM"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DISPLAY(27:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="LEDS(15:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="UNLOCK"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+ }
+}
+I 000047 40 3313 1576615050307 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1576615039"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (60,0,340,200)
+  FREEID 19
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (60,0,340,199)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,68,115,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,108,179,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,148,142,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (257,28,325,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (191,68,325,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (222,108,325,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (244,148,325,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DATA(15:0)"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ENTER"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ALARM"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DISPLAY(27:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="LEDS(15:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="UNLOCK"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+ }
+}
+I 000038 40 452 1576615050324 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,140,140)
+  FREEID 4
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,140,140)
+  }
+ }
+}
+I 000047 40 3313 1576615222455 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1576615222"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (60,0,340,200)
+  FREEID 19
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (60,0,340,199)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,68,115,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,108,179,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,148,142,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (257,28,325,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (191,68,325,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (222,148,325,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (244,108,325,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DATA(15:0)"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ENTER"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ALARM"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DISPLAY(27:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="LEDS(15:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="UNLOCK"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+ }
+}
+V 000047 40 3313 1576622614021 combinationlock
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1576615222"
+  #NAME="CombinationLock"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (60,0,340,200)
+  FREEID 19
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (60,0,340,199)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,68,115,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,108,179,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (75,148,142,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (257,28,325,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (191,68,325,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (222,148,325,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (244,108,325,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DATA(15:0)"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ENTER"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (1,-10), (1,10), (11,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (340,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="ALARM"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (340,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="DISPLAY(27:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (340,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="LEDS(15:0)"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (340,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="UNLOCK"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0) )
+   }
+  }
+ }
+}
+V 000038 40 452 1576622614054 display
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #NAME="Display"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="58986361-44ff-47d5-a375-28b614335985"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,140,140)
+  FREEID 4
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,140,140)
+  }
+ }
+}

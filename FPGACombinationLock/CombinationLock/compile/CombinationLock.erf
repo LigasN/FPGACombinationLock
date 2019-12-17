@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: .\..\compile\CombinationLock.vhd" 
+MESSAGE "Compile Entity "CombinationLock"" 
+MESSAGE "Compile Architecture "CombinationLock" of Entity "CombinationLock"" 
+WARNING ELAB1_0026: "There is no default binding for component "CombinationLock". (Port "ALARM" is not on the entity)." ".\..\compile\CombinationLock.vhd" 60 0
+WARNING ELAB1_0026: "There is no default binding for component "Display". (No entity named "Display" was found)." ".\..\compile\CombinationLock.vhd" 69 0
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time :  16.0 [ms]" 

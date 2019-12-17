@@ -1,0 +1,6 @@
+130
+~E 1 "./../compile/CombinationLock.vhd" 27 CombinationLock
+~A 1 "./../compile/CombinationLock.vhd" 37 CombinationLock
+~A 1 "./../compile/CombinationLock.vhd" 37 combinationlock_arch
+~E 0 "" 0 Display
+~A 0 "" 0 Display

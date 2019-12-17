@@ -1,0 +1,33 @@
+timestamp=1576622614062
+
+[~A]
+ModifyID=136
+Version=74
+
+[combinationlock]
+A/combinationlock=A/CombinationLock 24|.\..\src\CombinationLock.bde|10000|1*27959
+A/combinationlock_arch=+23|.\..\src\CombinationLock.asf|10000|1*21830
+I=0*28461
+I/combinationlock=I/CombinationLock 0*31257
+M=11|0|vde|1576614993005|./../compile/CombinationLock.vhd|0*27924*0x233970b88143ac138e7d9a814687b05a9e08cc16|0*28360*0x23b75c12e3e89f2ef000564498faa8c2
+M/combinationlock=M/CombinationLock 21|0|vde|1576615051230|./../compile/CombinationLock.vhd|0*30557*0x590f3fffb7f5a1d44a3eb87e57731f82a9744757|0*31137*0x20116f55b147878295aeff36dce7fc50
+M/combinationlock_arch=M/CombinationLock_arch 21|0|vde|1576614967624|./../compile/CombinationLock.vhd|0*24785*0xc0cb520d5f00b884bb4811ad745369e3689cae07|0*27563*0x20116f55b147878295aeff36dce7fc50
+NSymbols/combinationlock=NSymbols/CombinationLock 40|0|2*37728
+R=./../compile/CombinationLock.vhd|27
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b7067bea4233e3a9970d981be62e3fd6b8d5734691d3364604dc28cbc01910e4a
+Version/combinationlock=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b7067bea4233e3a9970d981be62e3fd6b0a44f94834a473ab5698e890f9bd2ee4
+Version/combinationlock_arch=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b70d2aebef9f96829fa4f917e8ee00755394eb40d66e9c45e77d56221d641f4c4
+
+[display]
+A/display=A/Display 21|.\..\src\Display.vhd|10000|
+NSymbols/display=NSymbols/Display 40|0|2*41088
+
+[~MFT]
+0=8|0CombinationLock.mgf|31257|26567
+1=1|1CombinationLock.mgf|27959|10287
+2=6|2CombinationLock.mgf|41088|37728
+
+[~U]
+combinationlock=CombinationLock 11|0*27688||0x7
+display=Display 11|||0x7
+

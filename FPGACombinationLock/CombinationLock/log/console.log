@@ -1,0 +1,112 @@
+acom -O3 -e 100 -work CombinationLock -2002  $dsn/src/CombinationLock.bde $dsn/src/CombinationLock.asf
+# DRC: Checking file 'D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.bde'.
+# DRC: Warning: CombinationLock.bde - 0 error(s), 7 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd from D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\..\compile\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock" of Entity "CombinationLock"
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (66, 0): There is no default binding for component "CombinationLock". (Port "CE" is not on the entity).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (89, 0): There is no default binding for component "Display". (No entity named "Display" was found).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (91, 0): There is no default binding for component "Lock". (No entity named "Lock" was found).
+# File: .\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock" of Entity "CombinationLock"
+# Warning: COMP96_0994: CombinationLock.bde(CombinationLock.vhd) : (33, 1): Multiple architecture "CombinationLock" of entity "CombinationLock" found in "D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd", ".\..\compile\CombinationLock.vhd".
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (66, 0): There is no default binding for component "CombinationLock". (Port "CE" is not on the entity).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (89, 0): There is no default binding for component "Display". (No entity named "Display" was found).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (91, 0): There is no default binding for component "Lock". (No entity named "Lock" was found).
+# Compile success 0 Errors 7 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work CombinationLock -2002  $dsn/src/CombinationLock.asf
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock" of Entity "CombinationLock"
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (66, 0): There is no default binding for component "CombinationLock". (Port "CE" is not on the entity).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (89, 0): There is no default binding for component "Display". (No entity named "Display" was found).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (91, 0): There is no default binding for component "Lock". (No entity named "Lock" was found).
+# Compile success 0 Errors 3 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work CombinationLock -2002  $dsn/compile/CombinationLock.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock" of Entity "CombinationLock"
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (66, 0): There is no default binding for component "CombinationLock". (Port "CE" is not on the entity).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (89, 0): There is no default binding for component "Display". (No entity named "Display" was found).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (91, 0): There is no default binding for component "Lock". (No entity named "Lock" was found).
+# Compile success 0 Errors 3 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work CombinationLock -2002  $dsn/src/CombinationLock.bde
+# DRC: Checking file 'D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.bde'.
+# DRC: Warning: CombinationLock.bde - 0 error(s), 4 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd from D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\..\compile\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock" of Entity "CombinationLock"
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (63, 0): There is no default binding for component "CombinationLock". (Port "ALARM" is not on the entity).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (71, 0): There is no default binding for component "Display". (No entity named "Display" was found).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (73, 0): There is no default binding for component "Lock". (No entity named "Lock" was found).
+# Compile success 0 Errors 3 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work CombinationLock -2002  $dsn/src/CombinationLock.asf
+# Loading State Diagram data...
+# Generating D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd from D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.asf
+# Synthesis attributes will be generated for Synopsys FPGA Express
+# Generating interface file...
+# HDL code generation successful. 0 error(s), 0 warning(s)
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock_arch" of Entity "CombinationLock"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Loading State Diagram data...
+# Generating D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd from D:/Dokumenty/Pulpit/programming_stuff/projekty wersje ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/CombinationLock.asf
+# Synthesis attributes will be generated for Synopsys FPGA Express
+# Generating interface file...
+# HDL code generation successful. 0 error(s), 0 warning(s)
+acom -O3 -e 100 -work CombinationLock -2002  $dsn/src/CombinationLock.bde $dsn/src/CombinationLock.asf $dsn/src/Display.vhd
+# DRC: Checking file 'D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.bde'.
+# DRC: Warning: CombinationLock.bde - 0 error(s), 4 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd from D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\..\compile\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock" of Entity "CombinationLock"
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (65, 0): There is no default binding for component "CombinationLock". (Port "CE" is not on the entity).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (75, 0): There is no default binding for component "Display". (No entity named "Display" was found).
+# File: .\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock" of Entity "CombinationLock"
+# Warning: COMP96_0994: CombinationLock.bde(CombinationLock.vhd) : (37, 1): Multiple architecture "CombinationLock" of entity "CombinationLock" found in "D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd", ".\..\compile\CombinationLock.vhd".
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (65, 0): There is no default binding for component "CombinationLock". (Port "CE" is not on the entity).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (75, 0): There is no default binding for component "Display". (No entity named "Display" was found).
+# File: D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd
+# Compile Entity "Display"
+# Error: COMP96_0018: Display.vhd : (36, 3): Identifier expected.
+# Compile Architecture "Display" of Entity "Display"
+# Error: VLM_0029: Display.vhd : (41, 1): Entity "Display" not found.
+# Error: COMP96_0056: Display.vhd : (41, 1): Cannot find referenced entity declaration "Display".
+# Compile failure 3 Errors 5 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work CombinationLock -2002  $dsn/src/CombinationLock.bde
+# DRC: Checking file 'D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.bde'.
+# DRC: Warning: CombinationLock.bde - 0 error(s), 3 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd from D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\..\compile\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock" of Entity "CombinationLock"
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (60, 0): There is no default binding for component "CombinationLock". (Port "ALARM" is not on the entity).
+# Warning: ELAB1_0026: CombinationLock.bde(CombinationLock.vhd) : (69, 0): There is no default binding for component "Display". (No entity named "Display" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  16.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `combinationlock_arch' of entity `combinationlock.combinationlock' is not up-to-date. Please recompile file `D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.asf'.
