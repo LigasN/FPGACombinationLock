@@ -4,9 +4,9 @@ component CombinationLock
 		DATA: in STD_LOGIC_VECTOR (15 downto 0);
 		ENTER: in STD_LOGIC;
 		ALARM: out STD_LOGIC;
-		DISPLAY: out STD_LOGIC_VECTOR (27 downto 0);
+		DISPLAY: out STD_LOGIC_VECTOR (15 downto 0);
 		LEDS: out STD_LOGIC_VECTOR (15 downto 0);
-		UNLOCK: out STD_LOGIC);
+		UNLOCK: inout STD_LOGIC);
 end component;
 
 

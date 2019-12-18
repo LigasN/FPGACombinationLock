@@ -1,4 +1,4 @@
 i<>.\src\CombinationLock.bde
 i<>.\src\CombinationLock.asf
-i<>.\compile\CombinationLock.vhd
 i<>.\src\Display.vhd
+i<>.\src\CombinationLock_TB.vhd

@@ -72,19 +72,27 @@ HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
 
+[Groups]
+TestBench=1
+
+[ORDER]
+Synchronize=0
+
 [Files]
-/CombinationLock.bde=-1
+/CombinationLockSystem.bde=-1
 /CombinationLock.asf=-1
 /Display.vhd=-1
+TestBench/CombinationLockSystem_TB.vhd=-1
 
 [Files.Data]
-.\src\CombinationLock.bde=Block Diagram
+.\src\CombinationLockSystem.bde=Block Diagram
 .\src\CombinationLock.asf=State Diagram
 .\src\Display.vhd=VHDL Source Code
+.\src\TestBench\CombinationLockSystem_TB.vhd=VHDL Source Code
 
+[file_out:/CombinationLockSystem.bde]
+/..\compile\CombinationLockSystem.vhd=-1
 
 [file_out:/CombinationLock.asf]
 /..\compile\CombinationLock.vhd=-1
 
-[file_out:/CombinationLock.bde]
-/..\compile\CombinationLock.vhd=-1

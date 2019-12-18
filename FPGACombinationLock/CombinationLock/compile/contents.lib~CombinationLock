@@ -1,6 +1,8 @@
-130
-~E 1 "./../compile/CombinationLock.vhd" 27 CombinationLock
-~A 1 "./../compile/CombinationLock.vhd" 37 CombinationLock
+307
+~E 1 "./../compile/CombinationLockSystem.vhd" 24 CombinationLock
+~A 1 "./../compile/CombinationLockSystem.vhd" 36 CombinationLock
 ~A 1 "./../compile/CombinationLock.vhd" 37 combinationlock_arch
-~E 0 "" 0 Display
-~A 0 "" 0 Display
+~E 1 "./../src/TestBench/CombinationLockSystem_TB.vhd" 28 CombinationLockSystem_TB
+~A 1 "./../src/TestBench/CombinationLockSystem_TB.vhd" 33 TB_ARCHITECTURE
+~E 1 "./../src/Display.vhd" 28 Display
+~A 1 "./../src/Display.vhd" 40 Display
