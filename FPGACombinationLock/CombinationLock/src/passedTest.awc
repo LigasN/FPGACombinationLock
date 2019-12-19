@@ -1,0 +1,46 @@
+<config>
+    <version>
+        2.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="142d27e0dadb0c07fc5d66ea78271b00">passedTest.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/CombinationLockSystem_TB/CLK</signal>
+        <signal>/CombinationLockSystem_TB/ENTER</signal>
+        <signal>/CombinationLockSystem_TB/DATA</signal>
+        <signal>/CombinationLockSystem_TB/LEDS</signal>
+        <signal>/CombinationLockSystem_TB/RGB_LEDS</signal>
+        <signal>/CombinationLockSystem_TB/SEV_SEG</signal>
+        <signal>/CombinationLockSystem_TB/UNLOCK</signal>
+        <signal>/CombinationLockSystem_TB/UUT/U1/State_machine/ATTEMPTS</signal>
+        <signal>/CombinationLockSystem_TB/UUT/U1/State_machine/DELTA</signal>
+        <signal>/CombinationLockSystem_TB/UUT/U1/State_machine/PASSWORD</signal>
+        <signal>/CombinationLockSystem_TB/UUT/U1/State</signal>
+        </signallist>
+    </signallists>
+    <prefbases>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="246263794" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

@@ -1,7 +1,0 @@
-0- Stand by
-1- Password is filling in
-2- Password is filled well
-3- Password is filled wrong
-4- Password is filled wrong 3- times
-5- New password is filling in
-6- New password is filled

@@ -1,5 +1,5 @@
 "d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd" VHDL CombinationLock 1 0 0 -02
 "d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd" VHDL CombinationLock 1 0 0 -02
-".\..\compile\CombinationLockSystem.vhd" VHDL CombinationLock 2 0 0 -02
-"d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\TestBench\CombinationLockSystem_TB.vhd" VHDL CombinationLock 0 0 0 -02
+"d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\TestBench\CombinationLockSystem_TB.vhd" VHDL CombinationLock 1 0 0 -02
+".\..\compile\combinationlocksystem.vhd" VHDL CombinationLock 1 0 0 -02
 . . 0 0 0

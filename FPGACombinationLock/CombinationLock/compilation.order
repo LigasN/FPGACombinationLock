@@ -1,4 +1,4 @@
 .\src\CombinationLock.asf
 .\src\Display.vhd
-.\src\CombinationLockSystem.bde
 .\src\TestBench\CombinationLockSystem_TB.vhd
+.\src\combinationlocksystem.bde

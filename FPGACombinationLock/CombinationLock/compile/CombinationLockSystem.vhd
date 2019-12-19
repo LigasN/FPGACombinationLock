@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLockSystem.vhd
--- Generated   : Wed Dec 18 23:37:23 2019
+-- Generated   : Thu Dec 19 22:45:44 2019
 -- From        : d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockSystem.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -20,20 +20,23 @@
 -- Design unit header --
 library IEEE;
 use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_signed.all;
+use IEEE.std_logic_unsigned.all;
 
-entity CombinationLock is
+entity CombinationLockSystem is
   port(
        CLK : in STD_LOGIC;
        ENTER : in STD_LOGIC;
        DATA : in STD_LOGIC_VECTOR(15 downto 0);
        LEDS : out STD_LOGIC_VECTOR(15 downto 0) := (others => '0');
        RGB_LEDS : out STD_LOGIC_VECTOR(5 downto 0);
-       SEV_SEG : out STD_LOGIC_VECTOR(15 downto 0);
+       SEV_SEG : out STD_LOGIC_VECTOR(10 downto 0);
        UNLOCK : inout STD_LOGIC := '0'
   );
-end CombinationLock;
+end CombinationLockSystem;
 
-architecture CombinationLock of CombinationLock is
+architecture CombinationLockSystem of CombinationLockSystem is
 
 ---- Component declarations -----
 
@@ -55,39 +58,46 @@ component Display
        DISPLAY : in STD_LOGIC_VECTOR(15 downto 0);
        UNLOCK_S : in STD_LOGIC;
        RGB_LEDS : out STD_LOGIC_VECTOR(5 downto 0);
-       SEV_SEG : out STD_LOGIC_VECTOR(15 downto 0)
+       SEV_SEG : out STD_LOGIC_VECTOR(10 downto 0)
   );
 end component;
 
 ---- Signal declarations used on the diagram ----
 
-signal NET762 : STD_LOGIC;
-signal BUS732 : STD_LOGIC_VECTOR(15 downto 0);
+signal NET55 : STD_LOGIC;
+signal NET575 : STD_LOGIC;
+signal BUS71 : STD_LOGIC_VECTOR(15 downto 0);
 
 begin
 
 ----  Component instantiations  ----
 
-U5 : Display
+U1 : CombinationLock
   port map(
-       ALARM => NET762,
+       ALARM => NET55,
        CLK => CLK,
-       DISPLAY => BUS732,
+       DATA => DATA,
+       DISPLAY => BUS71,
+       ENTER => NET575,
+       LEDS => LEDS,
+       UNLOCK => UNLOCK
+  );
+
+U2 : Display
+  port map(
+       ALARM => NET55,
+       CLK => CLK,
+       DISPLAY => BUS71,
        RGB_LEDS => RGB_LEDS,
        SEV_SEG => SEV_SEG,
        UNLOCK_S => UNLOCK
   );
 
-U6 : CombinationLock
-  port map(
-       ALARM => NET762,
-       CLK => CLK,
-       DATA => DATA,
-       DISPLAY => BUS732,
-       ENTER => ENTER,
-       LEDS => LEDS,
-       UNLOCK => UNLOCK
-  );
+
+---- Terminal assignment ----
+
+    -- Inputs terminals
+	NET575 <= ENTER;
 
 
-end CombinationLock;
+end CombinationLockSystem;

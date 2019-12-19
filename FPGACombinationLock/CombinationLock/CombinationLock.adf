@@ -34,6 +34,8 @@ ON_SERVERFARM_IMPL=0
 ON_SERVERFARM_SIM=0
 DVM_DISPLAY=NO
 fileopenfolder=D:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src
+VerilogDirsChanged=0
+SYNTH_STATUS=none
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -51,6 +53,50 @@ DESIGNS=ARTIX7
 
 [SYNTHESIS]
 SYNTH_DONT_RUN_SYNTHESIS=0
+OBSOLETE_ALIASES=1
+SYNTH_VIEW_MODE=RTL
+VIEW_MODE=RTL
+SYNTH_TOPLEVEL=CombinationLockSystem
+SYNTH_FAMILY=Xilinx2017x ARTIX7
+SYNTH_DEVICE=7a12tcpg238
+SYNTH_SPEED=-1
+SYNTH_RUN_MODE=1
+SYNTH_AUTO_CLOSE=0
+SYNTH_OVERWRITE_EXISTING_PRJ=1
+SYNTH_SIMULATION_OUTPUT_FORMAT=1
+SYNTH_SYNTHESIS_CHECKPOINT=
+SYNTH_SYNTHESIS_CONSTRAINT_FILE=
+SYNTH_FLATTEN_HIERARCHY=Rebuilt
+SYNTH_GATED_CLOCK_CONVERSION=Off
+SYNTH_FSM_EXTRACTION=Auto
+SYNTH_DISABLE_LUT_COMBINING=0
+SYNTH_NUMBER_OF_GLOBAL_CLOCK_BUFFERS=12
+SYNTH_FANOUT_LIMIT=10000
+SYNTH_DIRECTIVE=Default
+SYNTH_ADD_SPECIAL_LIBRARY_SOURCES=0
+SYNTH_ONE_FILE_MODE=0
+SYNTH_RUN_VIVADO_WITH=0
+SYNTH_SELECTED_TCL_FILE=
+SYNTH_SELECTED_CHECKPOINT_FILE=
+SYNTH_KEEP_EQUIVALENT_REGISTERS=0
+SYNTH_RESOURCE_SHARING=Auto
+SYNTH_CONTROL_SET_OPTIMIZATION_THRESHOLD=Auto
+SYNTH_SHIFT_REGISTER_MINIMUM_SIZE=3
+SYNTH_MAX_BRAM=-1
+SYNTH_MAX_DSP=-1
+SYNTH_CASCADE_DSP=Auto
+SYNTH_MAX_URAM=-1
+SYNTH_MAX_CASCADED_BRAM=-1
+SYNTH_MAX_CASCADED_URAM=-1
+SYNTH_RETIMING=0
+SYNTH_DISABLE_SHIFT_REGISTER_EXTRACTION=0
+SYNTH_ENABLE_VHDL_ASSERT_STATEMENT=0
+SYNTH_DISABLE_TIMING_DRIVEN=0
+TOPLEVEL=CombinationLockSystem
+FAMILY=Xilinx2017x ARTIX7
+DEVICE=7a12tcpg238
+SPEED=-1
+OLD_FAMILY=Xilinx2017x ARTIX7
 
 [IMPLEMENTATION]
 IMPL_DONT_RUN_LOGIC_OPTIMIZATION=0
@@ -63,36 +109,45 @@ IMPL_DONT_RUN_ROUTED_NETLIST_OPTIMIZATION=1
 IMPL_DONT_RUN_BITSTREAM=0
 FLOW_STEPS_RESET=0
 UCF=
+FAMILY=Xilinx2017x ARTIX7
+DEVICE=7a12tcpg238
+SPEED=-1
 
 [SpecTracer]
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=combinationlocksystem_tb|testbench_for_combinationlocksystem|1 
 ShowHide=ShowTopLevel
 Selected=
-
-[Groups]
-TestBench=1
 
 [ORDER]
 Synchronize=0
 
+[Groups]
+TestBench=1
+
 [Files]
-/CombinationLockSystem.bde=-1
 /CombinationLock.asf=-1
 /Display.vhd=-1
+/CombinationLockSystem.bde=-1
+/passedTest.asdb=-1
+/passedTest.awc=-1
 TestBench/CombinationLockSystem_TB.vhd=-1
+TestBench/CombinationLockSystem_TB_runtest.do=-1
 
 [Files.Data]
-.\src\CombinationLockSystem.bde=Block Diagram
 .\src\CombinationLock.asf=State Diagram
 .\src\Display.vhd=VHDL Source Code
-.\src\TestBench\CombinationLockSystem_TB.vhd=VHDL Source Code
-
-[file_out:/CombinationLockSystem.bde]
-/..\compile\CombinationLockSystem.vhd=-1
+.\src\CombinationLockSystem.bde=Block Diagram
+.\src\passedTest.asdb=Accelerated Waveform File
+.\src\passedTest.awc=Accelerated Waveform Configuration
+.\src\TestBench\CombinationLockSystem_TB.vhd=VHDL Test Bench
+.\src\TestBench\CombinationLockSystem_TB_runtest.do=Macro
 
 [file_out:/CombinationLock.asf]
 /..\compile\CombinationLock.vhd=-1
+
+[file_out:/CombinationLockSystem.bde]
+/..\compile\combinationlocksystem.vhd=-1
 

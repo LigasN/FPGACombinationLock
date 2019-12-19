@@ -31,14 +31,14 @@ end CombinationLockSystem_TB;
 --}} End of automatically maintained section
 
 architecture TB_ARCHITECTURE of CombinationLockSystem_TB is
-	component CombinationLockSystem
+	component combinationlocksystem
 		port (
 			CLK : in STD_LOGIC;
 			ENTER : in STD_LOGIC;
 			DATA : in STD_LOGIC_VECTOR(15 downto 0);
 			UNLOCK : inout STD_LOGIC;
 			RGB_LEDS : out STD_LOGIC_VECTOR(5 downto 0);
-			SEV_SEG : out STD_LOGIC_VECTOR(15 downto 0);
+			SEV_SEG : out STD_LOGIC_VECTOR(10 downto 0);
 			LEDS : out STD_LOGIC_VECTOR(15 downto 0) );
 	end component;
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
@@ -48,7 +48,7 @@ architecture TB_ARCHITECTURE of CombinationLockSystem_TB is
 	-- Observed signals - signals mapped to the output ports of tested entity
 	signal UNLOCK : STD_LOGIC;
 	signal RGB_LEDS : STD_LOGIC_VECTOR(5 downto 0);
-	signal SEV_SEG : STD_LOGIC_VECTOR(15 downto 0);
+	signal SEV_SEG : STD_LOGIC_VECTOR(10 downto 0);
 	signal LEDS : STD_LOGIC_VECTOR(15 downto 0);
 	
 	--Signal is used to stop clock signal generators
@@ -57,7 +57,7 @@ architecture TB_ARCHITECTURE of CombinationLockSystem_TB is
 begin
 	
 	-- Unit Under Test port map
-	UUT : CombinationLockSystem
+	UUT : combinationlocksystem
 	port map (
 	CLK => CLK,
 	ENTER => ENTER,
@@ -69,85 +69,95 @@ begin
 	);
 	
 	STIMULUS: process
-	begin
+	begin	 
+		-- init 
+		ENTER <= '1';
+		wait for 2 us;
+		ENTER <= '0';
+		wait for 2 us;
 		-- lets go
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
-		wait for 2 sec;
+		wait for 2 us;
 		--first attempt
 		DATA <=	"1000100010001000";
-		wait for 1 sec;
+		wait for 10 us;
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
-		wait for 5 sec;
+		wait for 10 us;
 		--second attempt
 		DATA <=	"1001100110011001";
-		wait for 1 sec;
+		wait for 10 us;
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
-		wait for 5 sec;
+		wait for 10 us;
 		--third attempt
 		DATA <=	"0101010101010101";
-		wait for 1 sec;
+		wait for 10 us;
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
 		-- ALARM
-		wait for 15 sec;
+		wait for 30 us;
 		-- Writing correct password
-		DATA <=	"0000000000000000";
-		wait for 1 sec;
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
+		ENTER <= '0';
+		wait for 2 us;
+		DATA <=	"0000000000000000";
+		wait for 10 us;
+		ENTER <= '1';
+		wait for 2 us;
 		ENTER <= '0';
 		-- Alarm should stop, waiting for closing lock again
-		wait for 30 sec;
+		wait for 30 us;
 		-- Writing correct password
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
-		wait for 1 sec;
+		wait for 5 us;
 		DATA <=	"0000000000000000";
-		wait for 1 sec;
+		wait for 5 us;
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
 		-- Trying to change password
-		wait for 5 sec;
+		wait for 5 us;
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';		
-		wait for 1 sec;
+		wait for 5 us;
 		-- Changing password
 		DATA <= "0010001000100010";
-		wait for 1 sec;
+		wait for 5 us;
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
 		-- now should be standby
-		wait for 3 sec;
+		wait for 30 us;
 		-- lets go again
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
-		wait for 1 sec;
+		wait for 5 us;
 		-- writing new correct password
 		DATA <=	"0010001000100010";
-		wait for 1 sec;
+		wait for 6 us;
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
 		-- trying to change password
-		wait for 1 sec;
+		wait for 5 us;
 		ENTER <= '1';
-		wait for 2 ms;
+		wait for 2 us;
 		ENTER <= '0';
 		-- nah we actually dont want to change it, so wait
-		wait for 50sec;
+		wait for 30 us;
 		-- should by stand by
+		END_SIM <= TRUE;
 		wait;
 	end process; -- end of stimulus process	 
 	
@@ -155,13 +165,13 @@ begin
 	begin
 		if END_SIM = FALSE then
 			CLK <= '0';
-			wait for 1 ms;
+			wait for 1 us;
 		else
 			wait;
 		end if;
 		if END_SIM = FALSE then
 			CLK <= '1';
-			wait for 1 ms;
+			wait for 1 us;
 		else
 			wait;
 		end if;
@@ -171,8 +181,8 @@ end TB_ARCHITECTURE;
 
 configuration TESTBENCH_FOR_CombinationLockSystem of CombinationLockSystem_TB is
 	for TB_ARCHITECTURE
-		for UUT : CombinationLockSystem
-			use entity work.CombinationLockSystem(CombinationLockSystem);
+		for UUT : combinationlocksystem
+			use entity work.combinationlocksystem(combinationlocksystem);
 		end for;
 	end for;
 end TESTBENCH_FOR_CombinationLockSystem;

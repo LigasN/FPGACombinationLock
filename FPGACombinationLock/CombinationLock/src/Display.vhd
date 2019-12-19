@@ -32,17 +32,16 @@ entity Display is
 		DISPLAY : in STD_LOGIC_VECTOR(15 downto 0);
 		UNLOCK_S : in STD_LOGIC;
 		RGB_LEDS : out STD_LOGIC_VECTOR(5 downto 0);
-		SEV_SEG : out STD_LOGIC_VECTOR(15 downto 0));	 
+		SEV_SEG : out STD_LOGIC_VECTOR(10 downto 0));	 
 end Display;
 
 --}} End of automatically maintained section
 
 architecture Display of Display is 
-	
-	signal DIVIDER: std_logic_vector(26 downto 0);
+												  
 	signal RGBW : STD_LOGIC_VECTOR(2 downto 0);
 	signal RGBL : STD_LOGIC_VECTOR(2 downto 0);
-	signal anode : STD_LOGIC_VECTOR(3 downto 0);
+	signal anode : STD_LOGIC_VECTOR(3 downto 0) := "0000";
 	constant white_led_period: integer := 1000;			-- white led frequency
 	constant lock_led_period: integer := 1000;			-- lock led frequency
 	
