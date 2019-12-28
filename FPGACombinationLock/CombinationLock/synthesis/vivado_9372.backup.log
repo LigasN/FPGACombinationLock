@@ -1,0 +1,390 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Dec 28 14:39:29 2019
+# Process ID: 9372
+# Current directory: d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis
+# Command line: vivado.exe -mode batch -log vivado.log -journal transcript.log -source d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis/run_vivado.tcl
+# Log file: d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis/vivado.log
+# Journal file: d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis\transcript.log
+#-----------------------------------------------------------
+source d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis/run_vivado.tcl
+# create_project -force CombinationLockSystem {d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis} -part 7a100tcsg324-1
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'd:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis'
+# add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd}
+# add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Display.vhd}
+# add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Debouncer.vhd}
+# add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Prescaler.vhd}
+# add_files -norecurse {D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/combinationlocksystem.vhd}
+# set_property top CombinationLockSystem [current_fileset]
+# set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
+# synth_design -top CombinationLockSystem -flatten_hierarchy rebuilt -gated_clock_conversion off -fsm_extraction auto -bufg 12 -fanout_limit 10000 -shreg_min_size 3 -max_bram -1 -max_uram -1 -max_dsp -1 -max_bram_cascade_height -1 -max_uram_cascade_height -1 -cascade_dsp auto -directive runtimeoptimized -resource_sharing auto -control_set_opt_threshold auto
+Command: synth_design -top CombinationLockSystem -flatten_hierarchy rebuilt -gated_clock_conversion off -fsm_extraction auto -bufg 12 -fanout_limit 10000 -shreg_min_size 3 -max_bram -1 -max_uram -1 -max_dsp -1 -max_bram_cascade_height -1 -max_uram_cascade_height -1 -cascade_dsp auto -directive runtimeoptimized -resource_sharing auto -control_set_opt_threshold auto
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12944 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 363.945 ; gain = 101.789
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CombinationLockSystem' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/combinationlocksystem.vhd:39]
+INFO: [Synth 8-3491] module 'CombinationLock' declared at 'D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd:26' bound to instance 'U1' of component 'CombinationLock' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/combinationlocksystem.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'CombinationLock' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd:37]
+WARNING: [Synth 8-6014] Unused sequential element DELAY_reg was removed.  [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'CombinationLock' (1#1) [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd:37]
+INFO: [Synth 8-3491] module 'Display' declared at 'D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Display.vhd:25' bound to instance 'U2' of component 'Display' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/combinationlocksystem.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'Display' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Display.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'Display' (2#1) [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Display.vhd:36]
+INFO: [Synth 8-3491] module 'Prescaler' declared at 'D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Prescaler.vhd:19' bound to instance 'U4' of component 'Prescaler' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/combinationlocksystem.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'Prescaler' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Prescaler.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'Prescaler' (3#1) [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Prescaler.vhd:28]
+INFO: [Synth 8-3491] module 'Debouncer' declared at 'D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Debouncer.vhd:15' bound to instance 'U6' of component 'Debouncer' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/combinationlocksystem.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'Debouncer' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Debouncer.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'Debouncer' (4#1) [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Debouncer.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'CombinationLockSystem' (5#1) [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/combinationlocksystem.vhd:39]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 416.316 ; gain = 154.160
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 416.316 ; gain = 154.160
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 750.406 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 750.406 ; gain = 488.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 750.406 ; gain = 488.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 750.406 ; gain = 488.250
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'State_reg' in module 'CombinationLock'
+INFO: [Synth 8-5544] ROM "DISPLAY" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MESSAGE" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "UNLOCK" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "UNLOCK" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DELTA" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element white_led_time_reg was removed.  [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Display.vhd:81]
+INFO: [Synth 8-5544] ROM "anode" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element divider_reg was removed.  [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/Prescaler.vhd:37]
+INFO: [Synth 8-5544] ROM "PE" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'DISPLAY_reg' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd:171]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 poweron |                             0000 |                             0000
+                 standby |                             0001 |                             0001
+                 filling |                             0010 |                             0010
+                   check |                             0011 |                             0011
+                   wrong |                             0100 |                             0101
+             alarm_state |                             0101 |                             0110
+                    well |                             0110 |                             0100
+             new_filling |                             0111 |                             0111
+              new_filled |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_reg' using encoding 'sequential' in module 'CombinationLock'
+WARNING: [Synth 8-327] inferring latch for variable 'LEDS_reg' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd:181]
+WARNING: [Synth 8-327] inferring latch for variable 'MESSAGE_reg' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd:160]
+WARNING: [Synth 8-327] inferring latch for variable 'UNLOCK_reg' [D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLock.vhd:176]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 750.406 ; gain = 488.250
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   9 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input      7 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	  20 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 5     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 19    
+	   3 Input      1 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module CombinationLock 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   9 Input     16 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	  20 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 5     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+	   3 Input      1 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 4     
+Module Display 
+Detailed RTL Component Info : 
++---Registers : 
+	               11 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input      7 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+Module Debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'U2/RGBW_reg[0]' (FDR) to 'U2/RGBW_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U2/RGBW_reg[1]' (FDR) to 'U2/RGBW_reg[2]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 750.406 ; gain = 488.250
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 751.551 ; gain = 489.395
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 773.012 ; gain = 510.855
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 773.012 ; gain = 510.855
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 773.012 ; gain = 510.855
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 773.012 ; gain = 510.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 773.012 ; gain = 510.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 773.012 ; gain = 510.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 773.012 ; gain = 510.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    26|
+|3     |LUT1   |     7|
+|4     |LUT2   |    57|
+|5     |LUT3   |     9|
+|6     |LUT4   |    20|
+|7     |LUT5   |    15|
+|8     |LUT6   |    48|
+|9     |MUXF7  |     6|
+|10    |FDRE   |    98|
+|11    |FDSE   |     7|
+|12    |LDC    |    35|
+|13    |LDCP   |     1|
+|14    |IBUF   |    18|
+|15    |OBUF   |    34|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+----------------+------+
+|      |Instance |Module          |Cells |
++------+---------+----------------+------+
+|1     |top      |                |   383|
+|2     |  U1     |CombinationLock |   161|
+|3     |  U2     |Display         |   128|
+|4     |  U4     |Prescaler       |    36|
+|5     |  U6     |Debouncer       |     4|
++------+---------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 773.012 ; gain = 510.855
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 773.012 ; gain = 176.766
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 773.012 ; gain = 510.855
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 36 instances were transformed.
+  LDC => LDCE: 35 instances
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 773.160 ; gain = 523.414
+# report_utilization -file {CombinationLockSystem_utilization_synth.rpt}
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 773.160 ; gain = 0.000
+# write_edf -force {CombinationLockSystem.edn}
+d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis/CombinationLockSystem.edn
+# write_vhdl -force {CombinationLockSystem.vhd}
+# write_xdc -force {CombinationLockSystem.xdc}
+# write_checkpoint -force CombinationLockSystem_synth.dcp
+INFO: [Common 17-1381] The checkpoint 'd:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis/CombinationLockSystem_synth.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 28 14:40:18 2019...

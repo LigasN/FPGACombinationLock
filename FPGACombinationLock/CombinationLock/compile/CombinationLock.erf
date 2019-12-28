@@ -1,15 +1,129 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd" 
+BEGINPROGRESS d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd
+MESSAGE "Compile Entity "CombinationLock"" 
+MESSAGE "Compile Architecture "STRUCTURE" of Entity "CombinationLock"" 
+UPDATEPROGRESS 2
+UPDATEPROGRESS 3
+UPDATEPROGRESS 4
+UPDATEPROGRESS 5
+UPDATEPROGRESS 6
+UPDATEPROGRESS 7
+UPDATEPROGRESS 8
+UPDATEPROGRESS 9
+UPDATEPROGRESS 10
+UPDATEPROGRESS 11
+UPDATEPROGRESS 12
+UPDATEPROGRESS 13
+UPDATEPROGRESS 14
+UPDATEPROGRESS 15
+UPDATEPROGRESS 16
+UPDATEPROGRESS 17
+UPDATEPROGRESS 18
+UPDATEPROGRESS 19
+UPDATEPROGRESS 20
+UPDATEPROGRESS 21
+UPDATEPROGRESS 22
+UPDATEPROGRESS 23
+UPDATEPROGRESS 24
+UPDATEPROGRESS 25
+UPDATEPROGRESS 26
+UPDATEPROGRESS 27
+UPDATEPROGRESS 28
+UPDATEPROGRESS 29
+UPDATEPROGRESS 30
+UPDATEPROGRESS 31
+UPDATEPROGRESS 32
+UPDATEPROGRESS 33
+UPDATEPROGRESS 34
+UPDATEPROGRESS 35
+UPDATEPROGRESS 36
+UPDATEPROGRESS 37
+UPDATEPROGRESS 44
+MESSAGE "Compile Entity "Debouncer"" 
+MESSAGE "Compile Architecture "STRUCTURE" of Entity "Debouncer"" 
+UPDATEPROGRESS 45
+MESSAGE "Compile Entity "Display"" 
+UPDATEPROGRESS 46
+MESSAGE "Compile Architecture "STRUCTURE" of Entity "Display"" 
+UPDATEPROGRESS 48
+UPDATEPROGRESS 49
+UPDATEPROGRESS 50
+UPDATEPROGRESS 51
+UPDATEPROGRESS 52
+UPDATEPROGRESS 53
+UPDATEPROGRESS 54
+UPDATEPROGRESS 55
+UPDATEPROGRESS 56
+UPDATEPROGRESS 57
+UPDATEPROGRESS 58
+UPDATEPROGRESS 59
+UPDATEPROGRESS 60
+UPDATEPROGRESS 61
+UPDATEPROGRESS 62
+UPDATEPROGRESS 63
+UPDATEPROGRESS 64
+UPDATEPROGRESS 65
+UPDATEPROGRESS 66
+UPDATEPROGRESS 67
+UPDATEPROGRESS 68
+UPDATEPROGRESS 69
+UPDATEPROGRESS 70
+UPDATEPROGRESS 71
+UPDATEPROGRESS 72
+UPDATEPROGRESS 73
+UPDATEPROGRESS 74
+UPDATEPROGRESS 75
+UPDATEPROGRESS 80
+MESSAGE "Compile Entity "Prescaler"" 
+MESSAGE "Compile Architecture "STRUCTURE" of Entity "Prescaler"" 
+UPDATEPROGRESS 81
+UPDATEPROGRESS 82
+UPDATEPROGRESS 83
+UPDATEPROGRESS 84
+UPDATEPROGRESS 85
+UPDATEPROGRESS 86
+UPDATEPROGRESS 87
+UPDATEPROGRESS 88
+UPDATEPROGRESS 89
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
+MESSAGE "Compile Entity "CombinationLockSystem"" 
+MESSAGE "Compile Architecture "STRUCTURE" of Entity "CombinationLockSystem"" 
+UPDATEPROGRESS 92
+UPDATEPROGRESS 93
+UPDATEPROGRESS 94
+UPDATEPROGRESS 95
+UPDATEPROGRESS 96
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd
 MESSAGE "File: .\CombinationLock.vhd" 
 MESSAGE "Compile Entity "CombinationLock"" 
+WARNING COMP96_0994: "Multiple entity "CombinationLock" found in "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd"." "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd" 26 1
 MESSAGE "Compile Architecture "CombinationLock_arch" of Entity "CombinationLock"" 
-MESSAGE "File: d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd" 
+MESSAGE "File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd" 
 MESSAGE "Compile Entity "Display"" 
+WARNING COMP96_0994: "Multiple entity "Display" found in "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd"." "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd" 25 1
 MESSAGE "Compile Architecture "Display" of Entity "Display"" 
-MESSAGE "File: d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\TestBench\CombinationLockSystem_TB.vhd" 
+MESSAGE "File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Debouncer.vhd" 
+MESSAGE "Compile Entity "Debouncer"" 
+WARNING COMP96_0994: "Multiple entity "Debouncer" found in "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Debouncer.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd"." "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Debouncer.vhd" 15 1
+MESSAGE "Compile Architecture "Debouncer" of Entity "Debouncer"" 
+MESSAGE "File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Prescaler.vhd" 
+MESSAGE "Compile Entity "Prescaler"" 
+WARNING COMP96_0994: "Multiple entity "Prescaler" found in "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Prescaler.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd"." "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Prescaler.vhd" 19 1
+MESSAGE "Compile Architecture "Prescaler" of Entity "Prescaler"" 
+MESSAGE "File: .\..\compile\CombinationLockSystem.vhd" 
+MESSAGE "Compile Entity "CombinationLockSystem"" 
+WARNING COMP96_0994: "Multiple entity "CombinationLockSystem" found in ".\..\compile\CombinationLockSystem.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd"." ".\..\compile\CombinationLockSystem.vhd" 27 1
+MESSAGE "Compile Architecture "CombinationLockSystem" of Entity "CombinationLockSystem"" 
+MESSAGE "File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\TestBench\CombinationLockSystem_TB.vhd" 
 MESSAGE "Compile Entity "CombinationLockSystem_TB"" 
 MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "CombinationLockSystem_TB"" 
 MESSAGE "Compile Configuration "TESTBENCH_FOR_CombinationLockSystem"" 
-MESSAGE "File: .\..\compile\combinationlocksystem.vhd" 
-MESSAGE "Compile Entity "CombinationLockSystem"" 
-MESSAGE "Compile Architecture "CombinationLockSystem" of Entity "CombinationLockSystem"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Configuration => TESTBENCH_FOR_CombinationLockSystem" 
+SUCCESS "Compile success 0 Errors 5 Warnings  Analysis time :  0.7 [s]" 

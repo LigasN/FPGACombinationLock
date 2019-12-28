@@ -7,9 +7,9 @@
 --
 -------------------------------------------------------------------------------
 --
--- File        : d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd
--- Generated   : Fri Dec 20 00:35:38 2019
--- From        : d:\Dokumenty\Pulpit\programming_stuff\projekty wersje ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLock.asf
+-- File        : D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd
+-- Generated   : Fri Dec 27 22:25:55 2019
+-- From        : D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/CombinationLock.asf
 -- By          : FSM2VHDL ver. 5.0.7.2
 --
 -------------------------------------------------------------------------------
@@ -28,16 +28,13 @@ entity CombinationLock is
 		CLK: in STD_LOGIC;
 		DATA: in STD_LOGIC_VECTOR (15 downto 0);
 		ENTER: in STD_LOGIC;
-		ALARM: out STD_LOGIC;
 		DISPLAY: out STD_LOGIC_VECTOR (15 downto 0);
 		LEDS: out STD_LOGIC_VECTOR (15 downto 0);
-		UNLOCK: inout STD_LOGIC);
+		MESSAGE: out STD_LOGIC_VECTOR (2 downto 0);
+		UNLOCK: out STD_LOGIC);
 end CombinationLock;
 
 architecture CombinationLock_arch of CombinationLock is
-
--- diagram signals declarations
-signal ALARMV: STD_LOGIC;
 
 -- USER DEFINED ENCODED state machine: State
 attribute ENUM_ENCODING: string;
@@ -85,7 +82,7 @@ begin
 				if ENTER = '1' then
 					State <= StandBy;
 					ATTEMPTS := (others => '0');
-					PASSWORD := (others => '0' );
+					PASSWORD := (others => '0');
 				end if;
 			when StandBy =>
 				DELTA := (others => '0');
@@ -108,9 +105,11 @@ begin
 			when New_Filled =>
 				DELTA := DELTA + 1;
 				PASSWORD := DATA;
-				if DELTA < DELAY then
+				if ENTER = '1' then
+					State <= StandBy;
+				elsif DELTA < DELAY then
 					State <= New_Filled;
-				else
+				elsif DELTA >= DELAY then
 					State <= StandBy;
 				end if;
 			when Check =>
@@ -157,10 +156,16 @@ begin
 end process;
 
 -- signal assignment statements for combinatorial outputs
-ALARMV_assignment:
-ALARMV <= '0' when (State = PowerOn and ENTER = '1') else
-          '1' when (State = Alarm_state) else
-          '0' when (State = Well);
+MESSAGE_assignment:
+MESSAGE <= (others => '0') when (State = PowerOn and ENTER = '1') else
+           "001" when (State = StandBy and ENTER = '1') else
+           (others => '0') when (State = StandBy) else
+           "111" when (State = Alarm_state) else
+           "101" when (State = New_Filled) else
+           "001" when (State = Check) else
+           "010" when (State = Wrong) else
+           "011" when (State = Well) else
+           "100" when (State = New_filling);
 
 DISPLAY_assignment:
 DISPLAY <= (others => '0') when (State = StandBy) else
@@ -177,12 +182,5 @@ LEDS <= (others => '0') when (State = StandBy) else
         DATA when (State = Filling) else
         DATA when (State = Check) else
         DATA when (State = New_filling);
-
-ALARM_assignment:
-ALARM <= ALARMV when (State = Alarm_state) else
-         ALARMV when (State = Filling) else
-         ALARMV when (State = Check) else
-         ALARMV when (State = Wrong) else
-         ALARMV when (State = Well);
 
 end CombinationLock_arch;

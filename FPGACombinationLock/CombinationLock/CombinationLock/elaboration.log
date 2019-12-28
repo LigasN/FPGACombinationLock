@@ -1,4 +1,4 @@
-Active-HDL 10.5.217.6767 2019-12-20 00:26:04
+Active-HDL 10.5.217.6767 2019-12-28 14:34:52
 
 Elaboration top modules:
 VHDL Configuration            testbench_for_combinationlocksystem
@@ -11,6 +11,8 @@ CombinationLockSystem_TB | TB_ARCHITECTURE       | combinationlock |      | 10.5
 CombinationLockSystem    | CombinationLockSystem | combinationlock |      | 10.5.217.6767 (Windows) | -O3
 CombinationLock          | CombinationLock_arch  | combinationlock |      | 10.5.217.6767 (Windows) | -O3
 Display                  | Display               | combinationlock |      | 10.5.217.6767 (Windows) | -O3
+Prescaler                | Prescaler             | combinationlock |      | 10.5.217.6767 (Windows) | -O3
+Debouncer                | Debouncer             | combinationlock |      | 10.5.217.6767 (Windows) | -O3
 --------------------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------------------

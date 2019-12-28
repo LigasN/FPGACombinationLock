@@ -1,0 +1,18 @@
+23
+~E 0 "" 0 CombinationLock
+~A 0 "" 0 combinationlock_arch
+~A 0 "" 0 structure
+~E 0 "" 0 CombinationLockSystem
+~A 0 "" 0 combinationlocksystem
+~A 0 "" 0 structure
+~E 0 "" 0 CombinationLockSystem_TB
+~A 0 "" 0 tb_architecture
+~E 0 "" 0 Debouncer
+~A 0 "" 0 debouncer
+~A 0 "" 0 structure
+~E 0 "" 0 Display
+~A 0 "" 0 display
+~A 0 "" 0 structure
+~E 0 "" 0 Prescaler
+~A 0 "" 0 prescaler
+~A 0 "" 0 structure

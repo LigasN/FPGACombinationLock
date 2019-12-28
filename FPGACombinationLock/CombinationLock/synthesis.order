@@ -1,3 +1,5 @@
 i<>.\src\CombinationLock.asf
 i<>.\src\Display.vhd
+i<>.\src\Debouncer.vhd
+i<>.\src\Prescaler.vhd
 i<>.\src\CombinationLockSystem.bde

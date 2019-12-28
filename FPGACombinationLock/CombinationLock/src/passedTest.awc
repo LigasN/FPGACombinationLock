@@ -6,7 +6,7 @@
     </comment>
     <databases>
         <database id="">*virtual*</database>
-        <database id="142d27e0dadb0c07fc5d66ea78271b00">passedTest.asdb</database>
+        <database id="142d27e0dadb4a3e065e51c6391a0d00">passedTest.asdb</database>
     </databases>
     <signallists>
         <signallist id="0">
@@ -17,13 +17,17 @@
         <signal>/CombinationLockSystem_TB/RGB_LEDS</signal>
         <signal>/CombinationLockSystem_TB/SEV_SEG</signal>
         <signal>/CombinationLockSystem_TB/UNLOCK</signal>
-        <signal>/CombinationLockSystem_TB/UUT/U1/State_machine/ATTEMPTS</signal>
-        <signal>/CombinationLockSystem_TB/UUT/U1/State_machine/DELTA</signal>
-        <signal>/CombinationLockSystem_TB/UUT/U1/State_machine/PASSWORD</signal>
+        <signal>/CombinationLockSystem_TB/UUT/U4/N_CLK</signal>
+        <signal>/CombinationLockSystem_TB/UUT/U6/CLK</signal>
+        <signal>/CombinationLockSystem_TB/UUT/U6/PE</signal>
         <signal>/CombinationLockSystem_TB/UUT/U1/State</signal>
         </signallist>
     </signallists>
     <prefbases>
+        <prefbase id="0" >
+            <pref name="End Time" value="2665446" />
+            <pref name="Start Time" value="191911" />
+        </prefbase>
     </prefbases>
     <bookmarkbases>
         <bookmarks id="0">
@@ -31,7 +35,7 @@
     </bookmarkbases>
     <cursorbases>
         <cursors id="0">
-            <cursor value="246263794" label="Cursor 1" locked="0" />
+            <cursor value="191911" label="Cursor 1" locked="0" />
         </cursors>
     </cursorbases>
     <measurementbases>
@@ -41,6 +45,6 @@
         </comments>
     </commentbases>
     <views>
-        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
     </views>
 </config>

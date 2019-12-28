@@ -1,0 +1,41 @@
+Active-HDL 10.5.217.6767 2019-12-28 14:43:44
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_combinationlocksystem
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+Entity                   | Architecture          | Library                        | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------------
+CombinationLockSystem_TB | TB_ARCHITECTURE       | combinationlock_post_synthesis |      | 10.5.217.6767 (Windows) | -O3
+CombinationLockSystem    | CombinationLockSystem | combinationlock_post_synthesis |      | 10.5.217.6767 (Windows) | -O3
+CombinationLock          | CombinationLock_arch  | combinationlock_post_synthesis |      | 10.5.217.6767 (Windows) | -O3
+Display                  | Display               | combinationlock_post_synthesis |      | 10.5.217.6767 (Windows) | -O3
+Prescaler                | Prescaler             | combinationlock_post_synthesis |      | 10.5.217.6767 (Windows) | -O3
+Debouncer                | Debouncer             | combinationlock_post_synthesis |      | 10.5.217.6767 (Windows) | -O3
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+VHDL Configuration                               | Library                        | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------------
+testbench_for_combinationlocksystem              | combinationlock_post_synthesis |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                     | Library                        | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------------
+standard                                         | std                            |      |                         | <unavailable>
+TEXTIO                                           | std                            |      |                         | <unavailable>
+std_logic_1164                                   | ieee                           |      |                         | <unavailable>
+std_logic_arith                                  | ieee                           |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED                               | ieee                           |      |                         | <unavailable>
+STD_LOGIC_SIGNED                                 | ieee                           |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+Library                                          | Comment
+-----------------------------------------------------------------------------------------------------------------------------------------
+combinationlock_post_synthesis                   | None
+ieee                                             | Standard IEEE packages library
+std                                              | Standard VHDL library
+-----------------------------------------------------------------------------------------------------------------------------------------

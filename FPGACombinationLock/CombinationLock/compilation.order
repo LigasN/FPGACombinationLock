@@ -1,4 +1,7 @@
 .\src\CombinationLock.asf
 .\src\Display.vhd
+.\src\Debouncer.vhd
+.\src\Prescaler.vhd
+.\src\CombinationLockSystem.bde
 .\src\TestBench\CombinationLockSystem_TB.vhd
-.\src\combinationlocksystem.bde
+.\synthesis\CombinationLockSystem.vhd
