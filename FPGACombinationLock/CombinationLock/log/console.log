@@ -1,58 +1,50 @@
 # Warning: You do not have valid license to open EDIF Netlist files. Contact Aldec for ordering information - sales@aldec.com.
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# Waveform file 'd:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/passedTest.awc' connected to 'd:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/passedTest.asdb'.
-acom -O3 -e 100 -work CombinationLock -2002  $dsn/src/CombinationLock.asf $dsn/src/Display.vhd $dsn/src/Debouncer.vhd $dsn/src/Prescaler.vhd $dsn/src/CombinationLockSystem.bde $dsn/src/TestBench/CombinationLockSystem_TB.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: .\CombinationLock.vhd
-# Compile Entity "CombinationLock"
-# Compile Architecture "CombinationLock_arch" of Entity "CombinationLock"
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd
-# Compile Entity "Display"
-# Compile Architecture "Display" of Entity "Display"
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Debouncer.vhd
-# Compile Entity "Debouncer"
-# Compile Architecture "Debouncer" of Entity "Debouncer"
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Prescaler.vhd
-# Compile Entity "Prescaler"
-# Compile Architecture "Prescaler" of Entity "Prescaler"
-# File: .\..\compile\CombinationLockSystem.vhd
-# Compile Entity "CombinationLockSystem"
-# Compile Architecture "CombinationLockSystem" of Entity "CombinationLockSystem"
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\TestBench\CombinationLockSystem_TB.vhd
-# Compile Entity "CombinationLockSystem_TB"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "CombinationLockSystem_TB"
-# Compile Configuration "TESTBENCH_FOR_CombinationLockSystem"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-acom -O3 -e 100 -work CombinationLock_post_synthesis -2002  $dsn/synthesis/CombinationLockSystem.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd
-# Compile Entity "CombinationLock"
-# Compile Architecture "STRUCTURE" of Entity "CombinationLock"
-# Compile Entity "Debouncer"
-# Compile Architecture "STRUCTURE" of Entity "Debouncer"
-# Compile Entity "Display"
-# Compile Architecture "STRUCTURE" of Entity "Display"
-# Compile Entity "Prescaler"
-# Compile Architecture "STRUCTURE" of Entity "Prescaler"
-# Compile Entity "CombinationLockSystem"
-# Compile Architecture "STRUCTURE" of Entity "CombinationLockSystem"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
-# Warning: Vivado finished with 7 warning(s).
+# Waveform file 'D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/passedTest.awc' connected to 'D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/passedTest.asdb'.
+# File 'D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/compile/CombinationLockSystem.vhd' is older than 'D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/src/CombinationLockSystem.bde' and will be updated.
+Scripter.GenerateBDE "D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockSystem.bde" -lib combinationlock
+# DRC: Checking file 'D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockSystem.bde'.
+# DRC: CombinationLockSystem.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 3 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLockSystem.vhd from D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockSystem.bde ...
+# Generation successful
+# Warning: Vivado finished with 5 warning(s).
 # Library Manager: Library "CombinationLock_post_synthesis" contents cleared.
 # Library Manager: Library "CombinationLock_post_synthesis" contents cleared.
-# Error: Vivado finished with 25 warning(s) and 4 error(s).
-# Error: You do not have valid license to run Testbench generation
-# Contact Aldec for ordering information - sales@aldec.com
-acom -reorder -O3 -e 100 -work CombinationLock_post_synthesis -2002  $dsn/synthesis/CombinationLockSystem.vhd -work combinationlock_post_synthesis -2002  $dsn/src/CombinationLock.asf $dsn/src/Display.vhd $dsn/src/Debouncer.vhd $dsn/src/Prescaler.vhd $dsn/src/CombinationLockSystem.bde $dsn/src/TestBench/CombinationLockSystem_TB.vhd
-# DRC: Checking file 'd:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockSystem.bde'.
-# DRC: Warning: CombinationLockSystem.bde - 0 error(s), 3 warning(s)
+# Error: Vivado finished with 19 warning(s) and 4 error(s).
+# Warning: Vivado finished with 18 warning(s).
+# Library Manager: Library "CombinationLock_timing" contents cleared.
+acom -O3 -e 100 -work combinationlock -2002  $dsn/src/CombinationLock.asf $dsn/src/Display.vhd $dsn/src/Debouncer.vhd $dsn/src/Prescaler.vhd $dsn/src/CombinationLockSystem.bde $dsn/src/TestBench/CombinationLockSystem_TB.vhd
+# DRC: Checking file 'D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockSystem.bde'.
+# DRC: CombinationLockSystem.bde - 0 error(s), 0 warning(s)
 # DRC: DRC process completed in 2 second(s).
 # DRC: The results have been written to the log file. Double click on this line to view the log.
-# Generating d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLockSystem.vhd from d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockSystem.bde ...
+# Generating D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLockSystem.vhd from D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\CombinationLockSystem.bde ...
 # Generation successful
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd
+# File: .\CombinationLock.vhd
+# Compile Entity "CombinationLock"
+# Compile Architecture "CombinationLock_arch" of Entity "CombinationLock"
+# File: D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd
+# Compile Entity "Display"
+# Compile Architecture "Display" of Entity "Display"
+# File: D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Debouncer.vhd
+# Compile Entity "Debouncer"
+# Compile Architecture "Debouncer" of Entity "Debouncer"
+# File: D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Prescaler.vhd
+# Compile Entity "Prescaler"
+# Compile Architecture "Prescaler" of Entity "Prescaler"
+# File: .\..\compile\CombinationLockSystem.vhd
+# Compile Entity "CombinationLockSystem"
+# Compile Architecture "CombinationLockSystem" of Entity "CombinationLockSystem"
+# File: D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\TestBench\CombinationLockSystem_TB.vhd
+# Compile Entity "CombinationLockSystem_TB"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "CombinationLockSystem_TB"
+# Compile Configuration "TESTBENCH_FOR_CombinationLockSystem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work CombinationLock_post_synthesis -2002  $dsn/synthesis/CombinationLockSystem.vhd $dsn/synthesis/CombinationLock.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd
 # Compile Entity "CombinationLock"
 # Compile Architecture "STRUCTURE" of Entity "CombinationLock"
 # Compile Entity "Debouncer"
@@ -63,38 +55,39 @@ acom -reorder -O3 -e 100 -work CombinationLock_post_synthesis -2002  $dsn/synthe
 # Compile Architecture "STRUCTURE" of Entity "Prescaler"
 # Compile Entity "CombinationLockSystem"
 # Compile Architecture "STRUCTURE" of Entity "CombinationLockSystem"
-# File: .\CombinationLock.vhd
+# File: D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLock.vhd
 # Compile Entity "CombinationLock"
-# Warning: COMP96_0994: CombinationLock.asf(CombinationLock.vhd) : (26, 1): Multiple entity "CombinationLock" found in "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd".
-# Compile Architecture "CombinationLock_arch" of Entity "CombinationLock"
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd
-# Compile Entity "Display"
-# Warning: COMP96_0994: Display.vhd : (25, 1): Multiple entity "Display" found in "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd".
-# Compile Architecture "Display" of Entity "Display"
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Debouncer.vhd
-# Compile Entity "Debouncer"
-# Warning: COMP96_0994: Debouncer.vhd : (15, 1): Multiple entity "Debouncer" found in "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Debouncer.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd".
-# Compile Architecture "Debouncer" of Entity "Debouncer"
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Prescaler.vhd
-# Compile Entity "Prescaler"
-# Warning: COMP96_0994: Prescaler.vhd : (19, 1): Multiple entity "Prescaler" found in "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Prescaler.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd".
-# Compile Architecture "Prescaler" of Entity "Prescaler"
-# File: .\..\compile\CombinationLockSystem.vhd
-# Compile Entity "CombinationLockSystem"
-# Warning: COMP96_0994: ../compile/CombinationLockSystem.vhd : (27, 1): Multiple entity "CombinationLockSystem" found in ".\..\compile\CombinationLockSystem.vhd", "d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd".
-# Compile Architecture "CombinationLockSystem" of Entity "CombinationLockSystem"
-# File: d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\TestBench\CombinationLockSystem_TB.vhd
-# Compile Entity "CombinationLockSystem_TB"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "CombinationLockSystem_TB"
-# Compile Configuration "TESTBENCH_FOR_CombinationLockSystem"
-# Top-level unit(s) detected:
-# Configuration => TESTBENCH_FOR_CombinationLockSystem
-# Compile success 0 Errors 5 Warnings  Analysis time :  0.7 [s]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# Error: Vivado finished with 25 warning(s) and 4 error(s).
-# Error: Vivado has been aborted.
+# Warning: COMP96_0994: ../synthesis/CombinationLock.vhd : (16, 1): Multiple entity "CombinationLock" found in "D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLock.vhd", "D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd".
+# Compile Architecture "STRUCTURE" of Entity "CombinationLock"
+# Warning: COMP96_0994: ../synthesis/CombinationLock.vhd : (30, 1): Multiple architecture "STRUCTURE" of entity "CombinationLock" found in "D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLock.vhd", "D:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\synthesis\CombinationLockSystem.vhd".
+# Compile success 0 Errors 2 Warnings  Analysis time :  1.0 [s]
+alog -O2 -sve -msg 5 -sv2k12 -work CombinationLock_timing $dsn/implement/CombinationLock.v $dsn/implement/glbl.v
+# Pass 1. Scanning modules hierarchy.
+# Warning: VCP2515 ../implement/CombinationLock.v : (38, 20): Undefined module: GND was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (45, 17): Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (60, 16): Undefined module: LDCE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (62, 20): Undefined module: VCC was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (178, 36): Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (197, 23): Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (205, 19): Undefined module: FDRE was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (216, 28): Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (219, 23): Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (293, 24): Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (318, 20): Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (371, 25): Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (795, 23): Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 ../implement/CombinationLock.v : (842, 156): Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: CombinationLock glbl.
+# $root top modules: CombinationLock glbl.
+# Compile success 0 Errors 14 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
 # Warning: Vivado finished with 7 warning(s).
 # Library Manager: Library "CombinationLock_post_synthesis" contents cleared.
 # Library Manager: Library "CombinationLock_post_synthesis" contents cleared.
-# Error: Vivado finished with 25 warning(s) and 4 error(s).
+# Warning: Vivado finished with 18 warning(s).
+# Library Manager: Library "CombinationLock_timing" contents cleared.

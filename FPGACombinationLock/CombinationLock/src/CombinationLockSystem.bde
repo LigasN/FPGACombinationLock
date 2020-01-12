@@ -2,7 +2,7 @@ SCHM0106
 
 HEADER
 {
- FREEID 1932
+ FREEID 1981
  VARIABLES
  {
   #ARCHITECTURE="CombinationLockSystem"
@@ -644,13 +644,13 @@ PAGE ""
     #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
     #VHDL_TYPE="STD_LOGIC"
    }
-   COORD (420,480)
-   VERTEXES ( (2,1888) )
+   COORD (380,480)
+   VERTEXES ( (2,1933) )
   }
   TEXT  19, 0, 0
   {
    TEXT "$#REFERENCE"
-   RECT (311,463,369,498)
+   RECT (271,463,329,498)
    ALIGN 6
    MARGINS (1,1)
    PARENT 18
@@ -806,7 +806,7 @@ PAGE ""
     #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="ca0f4d83-e086-425c-ada7-55600cebe3ef"
    }
    COORD (1320,360)
-   VERTEXES ( (8,1055), (10,1053), (4,1564), (6,1643), (2,1803) )
+   VERTEXES ( (8,1055), (10,1053), (4,1564), (6,1643), (2,1934) )
   }
   TEXT  48, 0, 0
   {
@@ -884,7 +884,7 @@ PAGE ""
     #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="bf17b920-be2f-4ec1-bb4d-7be02c037cf2"
    }
    COORD (360,460)
-   VERTEXES ( (2,1889), (4,1891) )
+   VERTEXES ( (4,1891), (2,1932) )
   }
   TEXT  912, 0, 0
   {
@@ -1100,7 +1100,7 @@ PAGE ""
   TEXT  1608, 0, 0
   {
    TEXT "$#NAME"
-   RECT (1040,487,1206,514)
+   RECT (900,487,1066,514)
    ALIGN 4
    PARENT 1569
   }
@@ -1136,10 +1136,6 @@ PAGE ""
    NET 1630
    VTX 1645, 1642
   }
-  VTX  1803, 0, 0
-  {
-   COORD (1320,400)
-  }
   VTX  1878, 0, 0
   {
    COORD (420,660)
@@ -1166,14 +1162,6 @@ PAGE ""
    NET 577
    VTX 1880, 1881
   }
-  VTX  1888, 0, 0
-  {
-   COORD (420,480)
-  }
-  VTX  1889, 0, 0
-  {
-   COORD (440,500)
-  }
   VTX  1890, 0, 0
   {
    COORD (840,560)
@@ -1181,29 +1169,6 @@ PAGE ""
   VTX  1891, 0, 0
   {
    COORD (580,500)
-  }
-  VTX  1892, 0, 0
-  {
-   COORD (430,480)
-  }
-  WIRE  1893, 0, 0
-  {
-   NET 1588
-   VTX 1888, 1892
-  }
-  VTX  1894, 0, 0
-  {
-   COORD (430,500)
-  }
-  WIRE  1895, 0, 0
-  {
-   NET 1588
-   VTX 1892, 1894
-  }
-  WIRE  1896, 0, 0
-  {
-   NET 1588
-   VTX 1894, 1889
   }
   VTX  1897, 0, 0
   {
@@ -1222,20 +1187,6 @@ PAGE ""
   {
    NET 1914
    VTX 1897, 1899
-  }
-  VTX  1902, 0, 0
-  {
-   COORD (420,400)
-  }
-  WIRE  1904, 0, 0
-  {
-   NET 1588
-   VTX 1902, 1888
-  }
-  WIRE  1905, 0, 0
-  {
-   NET 1588
-   VTX 1803, 1902
   }
   VTX  1906, 0, 0
   {
@@ -1270,6 +1221,55 @@ PAGE ""
    VTX 1907, 1891
   }
   NET WIRE  1914, 0, 0
+  VTX  1932, 0, 0
+  {
+   COORD (440,500)
+  }
+  VTX  1933, 0, 0
+  {
+   COORD (380,480)
+  }
+  VTX  1934, 0, 0
+  {
+   COORD (1320,400)
+  }
+  VTX  1935, 0, 0
+  {
+   COORD (400,500)
+  }
+  WIRE  1936, 0, 0
+  {
+   NET 1588
+   VTX 1932, 1935
+  }
+  WIRE  1938, 0, 0
+  {
+   NET 1588
+   VTX 1935, 1946
+  }
+  VTX  1940, 0, 0
+  {
+   COORD (400,400)
+  }
+  WIRE  1941, 0, 0
+  {
+   NET 1588
+   VTX 1934, 1940
+  }
+  WIRE  1943, 0, 0
+  {
+   NET 1588
+   VTX 1940, 1946
+  }
+  WIRE  1945, 0, 0
+  {
+   NET 1588
+   VTX 1933, 1946
+  }
+  VTX  1946, 0, 0
+  {
+   COORD (400,480)
+  }
  }
  
 }
@@ -1295,7 +1295,7 @@ PAGE ""
  
  BODY
  {
-  TEXT  1915, 0, 0
+  TEXT  1964, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -1306,7 +1306,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,0,0,"Arial")
   }
-  TEXT  1916, 0, 0
+  TEXT  1965, 0, 0
   {
    PAGEALIGN 10
    TEXT "$CREATIONDATE"
@@ -1317,7 +1317,7 @@ PAGE ""
    FONT (12,0,0,700,0,128,0,"Arial")
    UPDATE 0
   }
-  TEXT  1917, 0, 0
+  TEXT  1966, 0, 0
   {
    PAGEALIGN 10
    TEXT "Title:"
@@ -1327,7 +1327,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,0,0,"Arial")
   }
-  TEXT  1918, 0, 0
+  TEXT  1967, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -1339,7 +1339,7 @@ PAGE ""
    FONT (12,0,0,700,0,128,0,"Arial")
    UPDATE 0
   }
-  TEXT  1919, 0, 0
+  TEXT  1968, 0, 0
   {
    PAGEALIGN 10
    TEXT 
@@ -1352,7 +1352,7 @@ PAGE ""
    FONT (12,0,0,700,0,0,0,"Arial")
    MULTILINE
   }
-  TEXT  1920, 0, 0
+  TEXT  1969, 0, 0
   {
    PAGEALIGN 10
    TEXT "Page:"
@@ -1362,7 +1362,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,0,0,"Arial")
   }
-  TEXT  1921, 0, 0
+  TEXT  1970, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -1374,7 +1374,7 @@ PAGE ""
    FONT (12,0,0,700,0,128,0,"Arial")
    UPDATE 0
   }
-  TEXT  1922, 0, 0
+  TEXT  1971, 0, 0
   {
    PAGEALIGN 10
    TEXT "Revision:"
@@ -1384,7 +1384,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,0,0,"Arial")
   }
-  TEXT  1923, 0, 0
+  TEXT  1972, 0, 0
   {
    PAGEALIGN 10
    TEXT "$Revision"
@@ -1395,7 +1395,7 @@ PAGE ""
    FONT (12,0,0,700,0,204,0,"Arial")
    UPDATE 0
   }
-  GROUP  1924, 0, 0
+  GROUP  1973, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1120,2001,1501)
@@ -1407,7 +1407,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1925, 0, 0
+  GROUP  1974, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1320,2001,1321)
@@ -1419,7 +1419,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1926, 0, 0
+  GROUP  1975, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1260,2001,1261)
@@ -1431,7 +1431,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1927, 0, 0
+  GROUP  1976, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1380,2001,1381)
@@ -1443,7 +1443,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1928, 0, 0
+  GROUP  1977, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1440,2001,1441)
@@ -1455,7 +1455,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1929, 0, 0
+  GROUP  1978, 0, 0
   {
    PAGEALIGN 10
    RECT (1300,1120,1301,1261)
@@ -1466,7 +1466,7 @@ PAGE ""
     POINTS ( (0,0), (0,140) )
    }
   }
-  GROUP  1930, 0, 0
+  GROUP  1979, 0, 0
   {
    PAGEALIGN 10
    RECT (1300,1260,1301,1501)
@@ -1477,7 +1477,7 @@ PAGE ""
     POINTS ( (0,0), (0,240) )
    }
   }
-  BMPPICT  1931, 0, 0
+  BMPPICT  1980, 0, 0
   {
    PAGEALIGN 10
    RECT (1140,1180,1279,1225)

@@ -1,96 +1,96 @@
-timestamp=1577540361737
+timestamp=1547240523983
 
 [~A]
-ModifyID=867
+ModifyID=896
 Version=74
 
 [combinationlock]
-A/combinationlock_arch=A/CombinationLock_arch 23|.\..\src\CombinationLock.asf|10000|1*1192918
-BinI32/combinationlock_arch=3*387767
+A/combinationlock_arch=A/CombinationLock_arch 23|.\..\src\CombinationLock.asf|10000|1*1226205
+BinI32/combinationlock_arch=3*398774
 I=0*389592
-I/combinationlock_arch=I/CombinationLock_arch 0*656194
+I/combinationlock_arch=I/CombinationLock_arch 0*672305
 M=11|0|vde|1577043191509|./../compile/CombinationLock.vhd|0*389010*0x77612d5f9f68b32c79bf5bcc1e82a868fdacb088|0*389491*0x23b75c12e3e89f2ef000564498faa8c2
-M/combinationlock_arch=M/CombinationLock_arch 21|0|vde|1577540361532|./../compile/CombinationLock.vhd|0*652893*0x7743f001bc22d661ae84dc8aac2a672963d5de7b|0*656069*0x20116f55b147878295aeff36dce7fc50
-NSymbols/combinationlock=NSymbols/CombinationLock 40|0|2*202856
+M/combinationlock_arch=M/CombinationLock_arch 21|0|vde|1547240523706|./../compile/CombinationLock.vhd|0*669004*0x7743f001bc22d661ae84dc8aac2a672963d5de7b|0*672180*0x20116f55b147878295aeff36dce7fc50
+NSymbols/combinationlock=NSymbols/CombinationLock 40|0|2*220928
 R=./../compile/CombinationLock.vhd|26
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b7067bea4233e3a9970d981be62e3fd6b021618691dedc115262e9ffc969f5243
 Version/combinationlock=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b7067bea4233e3a9970d981be62e3fd6b4d02476dfaee800655485c5786ff6408
-Version/combinationlock_arch=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b70d2aebef9f96829fa4f917e8ee007550262581c98b351bf7287d240ffa7c452
+Version/combinationlock_arch=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744b70d2aebef9f96829fa4f917e8ee00755be6de6c8aed4cf34e4937a094d652f35
 
 [combinationlocksystem]
-A/combinationlocksystem=A/CombinationLockSystem 24|.\..\src\CombinationLockSystem.bde|10000|1*1200016
-BinI32/combinationlocksystem=3*391424
+A/combinationlocksystem=A/CombinationLockSystem 24|.\..\src\CombinationLockSystem.bde|10000|1*1233303
+BinI32/combinationlocksystem=3*402431
 I=0*391674
-I/combinationlocksystem=I/CombinationLockSystem 0*658883
+I/combinationlocksystem=I/CombinationLockSystem 0*674994
 M=11|0|vde|1577043191605|./../compile/combinationlocksystem.vhd|0*391012*0xee6875048695dae36cd2681634875165b5a8235a|0*391561*0x23b75c12e3e89f2ef000564498faa8c2
-M/combinationlocksystem=M/CombinationLockSystem 21|0|vde|1577540361672|./../compile/CombinationLockSystem.vhd|0*657300*0xeebd2b46a9e787b2e3610b8f4fd18fd785f9204c|0*658745*0x20116f55b147878295aeff36dce7fc50
+M/combinationlocksystem=M/CombinationLockSystem 21|0|vde|1547240523894|./../compile/CombinationLockSystem.vhd|0*673411*0xeebd2b46a9e787b2e3610b8f4fd18fd785f9204c|0*674856*0x20116f55b147878295aeff36dce7fc50
 R=./../compile/combinationlocksystem.vhd|27
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744ba4c4c4fdb91991b053159f235e3cc21d9ef7c6e017ede25449ab6b6a92c0684f
-Version/combinationlocksystem=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744ba4c4c4fdb91991b053159f235e3cc21d34ce41585ec8208605b032fd40fdae90
+Version/combinationlocksystem=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744ba4c4c4fdb91991b053159f235e3cc21d58cc0470e9db4da27b5b4936808d7a60
 
 [combinationlocksystem_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/CombinationLockSystem_TB.vhd|33|1*1203995
-BinI32/tb_architecture=3*391609
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/CombinationLockSystem_TB.vhd|33|1*1237282
+BinI32/tb_architecture=3*402616
 I=0*11418
-I/tb_architecture=I/TB_ARCHITECTURE 0*659365
+I/tb_architecture=I/TB_ARCHITECTURE 0*675476
 M=11|0|vde|1576708643454|./../src/TestBench/CombinationLockSystem_TB.vhd|0*11023*0xcf0b0086ef0cb2076fbeaabff55ef804617bd818|0*11293*0x23b75c12e3e89f2ef000564498faa8c2
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|vde|1577540361702|./../src/TestBench/CombinationLockSystem_TB.vhd|0*570680*0xdf6e30add860d4c3ffcf42fb73b87484d22161cd|0*573854*0x20116f55b147878295aeff36dce7fc50
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vde|1547240523940|./../src/TestBench/CombinationLockSystem_TB.vhd|0*570680*0xdf6e30add860d4c3ffcf42fb73b87484d22161cd|0*573854*0x20116f55b147878295aeff36dce7fc50
 R=./../src/TestBench/CombinationLockSystem_TB.vhd|28
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57277eb31e30a86dad76313ea926744bf1defe091304809e4533c4d7a10de44d29b765001716a9f5842522eb5ef6cdcd1a0dafaa5d4dca940f84e6abf25bf9c1
-Version/tb_architecture=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea117c261037c20221ff3c2e663872e411
+Version/tb_architecture=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea198a0aa9ebe7fd2638b8d62294836090
 
 [debouncer]
-A/debouncer=A/Debouncer 21|./../src/Debouncer.vhd|23|1*1198045
-BinI32/debouncer=3*390716
+A/debouncer=A/Debouncer 21|./../src/Debouncer.vhd|23|1*1231332
+BinI32/debouncer=3*401723
 I=0*462449
-I/debouncer=I/Debouncer 0*656793
+I/debouncer=I/Debouncer 0*672904
 M=11|0|vde|1577046952886|./../src/Debouncer.vhd|0*462127*0xacede11f6e0e026abaddc5d0d55b6113a06e9c3a|0*462364*0x23b75c12e3e89f2ef000564498faa8c2
-M/debouncer=M/Debouncer 21|0|vde|1577540361615|./../src/Debouncer.vhd|0*577691*0x6f0bbce1f3721227075ae2e98364badd66ea6381|0*578001*0x20116f55b147878295aeff36dce7fc50
-NSymbols/debouncer=NSymbols/Debouncer 40|0|2*206271
+M/debouncer=M/Debouncer 21|0|vde|1547240523814|./../src/Debouncer.vhd|0*577691*0x6f0bbce1f3721227075ae2e98364badd66ea6381|0*578001*0x20116f55b147878295aeff36dce7fc50
+NSymbols/debouncer=NSymbols/Debouncer 40|0|2*224343
 R=./../src/Debouncer.vhd|15
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4d90a4496ba3730233421c77383657a2471558cb7edec52181b26edfc24e44ab7a964bedbf4a3c7f3475421eb2e9848d
-Version/debouncer=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4d90a4496ba3730233421c77383657a2471558cb7edec52181b26edfc24e44ab66af1f4d7b08572c0aa3b40d97b99ed2
+Version/debouncer=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4d90a4496ba3730233421c77383657a2471558cb7edec52181b26edfc24e44abf2a881f09583c7ed5d44a1579968e05d
 
 [display]
-A/display=A/Display 21|./../src/Display.vhd|36|1*1195336
-BinI32/display=3*389190
+A/display=A/Display 21|./../src/Display.vhd|36|1*1228623
+BinI32/display=3*400197
 I=0*359626
-I/display=I/Display 0*656503
+I/display=I/Display 0*672614
 M=11|0|vde|1577042150392|./../src/Display.vhd|0*359170*0xb5c31f9c87606e9a5d8c2dc639b6296f772b326f|0*359545*0x23b75c12e3e89f2ef000564498faa8c2
-M/display=M/Display 21|0|vde|1577540361580|./../src/Display.vhd|0*619187*0x807a492ba14ce3d64b6809839ca300b906551e4a|0*621296*0x20116f55b147878295aeff36dce7fc50
-NSymbols/display=NSymbols/Display 40|0|2*207986
+M/display=M/Display 21|0|vde|1547240523767|./../src/Display.vhd|0*619187*0x807a492ba14ce3d64b6809839ca300b906551e4a|0*621296*0x20116f55b147878295aeff36dce7fc50
+NSymbols/display=NSymbols/Display 40|0|2*226058
 R=./../src/Display.vhd|28
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3c176dad9cde25b1cb5a00594e6cbac026527262ddaa47cb266f3a3c4d9b973a4caa8d627b29793a2648cc653c429b04
-Version/display=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3c176dad9cde25b1cb5a00594e6cbac026527262ddaa47cb266f3a3c4d9b973a820f15b9974aef23d171a801b426a080
+Version/display=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3c176dad9cde25b1cb5a00594e6cbac026527262ddaa47cb266f3a3c4d9b973a7b80d026a2265de7d438803f7649820f
 
 [fub3]
 A/debouncer=A/Debouncer 21|.\..\src\Debouncer.vhd|10000|
 
 [prescaler]
-A/prescaler=A/Prescaler 21|./../src/Prescaler.vhd|28|1*1198963
-BinI32/prescaler=3*391062
+A/prescaler=A/Prescaler 21|./../src/Prescaler.vhd|28|1*1232250
+BinI32/prescaler=3*402069
 I=0*430270
-I/prescaler=I/Prescaler 0*657006
+I/prescaler=I/Prescaler 0*673117
 M=11|0|vde|1577045109892|./../src/Prescaler.vhd|0*429934*0x18cb0ad2e3c42fef1308d0e81a0ac61361dab5ad|0*430185*0x23b75c12e3e89f2ef000564498faa8c2
-M/prescaler=M/Prescaler 21|0|vde|1577540361646|./../src/Prescaler.vhd|0*612170*0x0c59e09581e09c64fb5fdde9f4860b933622fca4|0*612569*0x20116f55b147878295aeff36dce7fc50
-NSymbols/prescaler=NSymbols/Prescaler 40|0|2*210561
+M/prescaler=M/Prescaler 21|0|vde|1547240523856|./../src/Prescaler.vhd|0*612170*0x0c59e09581e09c64fb5fdde9f4860b933622fca4|0*612569*0x20116f55b147878295aeff36dce7fc50
+NSymbols/prescaler=NSymbols/Prescaler 40|0|2*228633
 R=./../src/Prescaler.vhd|19
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|cae12c06217c698b50665c41a2a64cabb47390a3fca90f02da94c6585948d10906137b2fc70a0b8ada1cf4b0ee751cfe
-Version/prescaler=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|cae12c06217c698b50665c41a2a64cabb47390a3fca90f02da94c6585948d109f36c08e9f4406680710ff78e2bbd3fc3
+Version/prescaler=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|cae12c06217c698b50665c41a2a64cabb47390a3fca90f02da94c6585948d10954d88e5222dc9be67d70cb2225068cf9
 
 [testbench_for_combinationlocksystem]
 Configures=CombinationLockSystem_TB.TB_ARCHITECTURE
-E=1*1206859
-I=0*659725
-M=2|0|vde|1577540361715|./../src/TestBench/CombinationLockSystem_TB.vhd|0*574358*0xca2d42ed4b36aef620bdf6a8e1a9c878c7def03b|0*574765*0x20116f55b147878295aeff36dce7fc50
+E=1*1240146
+I=0*675836
+M=2|0|vde|1547240523954|./../src/TestBench/CombinationLockSystem_TB.vhd|0*574358*0xca2d42ed4b36aef620bdf6a8e1a9c878c7def03b|0*574765*0x20116f55b147878295aeff36dce7fc50
 R=./../src/TestBench/CombinationLockSystem_TB.vhd|182
-Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e54cab1bc3997996abef2ca80bbf09f2976b60a37dbf93816b20b68df4e20c5a596fb3392e46128a5d2c30a941491230fb
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e54cab1bc3997996abef2ca80bbf09f2976b60a37dbf93816b20b68df4e20c5a5998a6d3336759654b2cc472db036e38b6
 
 [~MFT]
-0=26|0CombinationLock.mgf|659725|640164
-1=12|1CombinationLock.mgf|1206859|687269
-2=0|2CombinationLock.mgf|210561|202856
-3=12|3CombinationLock.mgf|391609|387767
+0=26|0CombinationLock.mgf|675836|656275
+1=12|1CombinationLock.mgf|1240146|703783
+2=0|2CombinationLock.mgf|228633|220928
+3=12|3CombinationLock.mgf|402616|398774
 
 [~U]
 combinationlock=CombinationLock 11|0*388757||0x7

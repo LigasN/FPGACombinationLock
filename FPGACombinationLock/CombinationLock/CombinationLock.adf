@@ -10,6 +10,7 @@ compile=combinationlock
 [Library]
 CombinationLock=.\CombinationLock\CombinationLock.lib
 CombinationLock_post_synthesis=.\CombinationLock_post_synthesis\CombinationLock_post_synthesis.lib
+CombinationLock_timing=.\CombinationLock_timing\CombinationLock_timing.lib
 
 [Settings]
 AccessRead=0
@@ -39,10 +40,11 @@ VerilogDirsChanged=0
 SYNTH_STATUS=warnings
 CSYNTH_STATUS=NONE
 PHYSSYNTH_STATUS=none
-IMPL_STATUS=errors
+IMPL_STATUS=warnings
 FUNC_LIB=CombinationLock
 POST_LIB=CombinationLock_post_synthesis
 RUN_MODE_IMPL=0
+TIM_LIB=CombinationLock_timing
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -100,7 +102,7 @@ IMPL_DEVICE=7a100tcsg324
 IMPL_SPEED=-1
 IMPL_RUN_MODE=0
 IMPL_OVERWRITE_EXISTING_PRJ=1
-IMPL_CONSTRAINT_FILE=synthesis\CombinationLockSystem.xdc
+IMPL_CONSTRAINT_FILE=src\CombinationLock.xdc
 IMPL_CONSTRAINT_FILE_MODE=Custom constraint file
 IMPL_SELECTED_TCL_FILE=
 IMPL_NETLIST_FILE=synthesis\CombinationLockSystem.edn
@@ -168,13 +170,15 @@ IMPL_ROUTED_NETLIST_SLR_CROSSING_OPTIMIZATION=0
 IMPL_PLACED_NETLIST_INSERT_NEGATIVE_EDGE_TRIGGERED_FFS=0
 IMPL_ROUTED_NETLIST_INSERT_NEGATIVE_EDGE_TRIGGERED_FFS=0
 OLD_FAMILY=Xilinx2017x ARTIX7
-LAST_RUN=1577541069
+LAST_RUN=1547240895
+OUTPUT_NETLIST=implement\CombinationLockSystem.v
+OUTPUT_SDF=implement\CombinationLockSystem.sdf
 
 [SpecTracer]
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=combinationlocksystem_tb|testbench_for_combinationlocksystem|1 
+HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
 
@@ -228,7 +232,7 @@ DEVICE=7a100tcsg324
 SPEED=-1
 OLD_FAMILY=Xilinx2017x ARTIX7
 OUTPUT_NETLIST=synthesis\CombinationLockSystem.edn
-LAST_RUN=1577540991
+LAST_RUN=1547240614
 OUTPUT_SIMUL_NETLIST=synthesis\CombinationLockSystem.vhd
 
 [PHYS_SYNTHESIS]
@@ -242,12 +246,17 @@ IN_CONSTRAINT=
 OUT_CONSTRAINT=
 REPORT=
 
+[SIM.POST]
+TOPLEVEL=CombinationLockSystem
+
 [Groups]
 TestBench=1
 post-synthesis=1
+timing=1
 
-[SIM.POST]
-TOPLEVEL=CombinationLockSystem
+[SIM.TIME]
+TOPLEVEL=CombinationLock glbl
+SDF_PATH=implement\CombinationLockSystem.sdf
 
 [Files]
 /CombinationLock.asf=-1
@@ -258,10 +267,18 @@ TOPLEVEL=CombinationLockSystem
 /passedTest.asdb=-1
 /passedTest.awc=-1
 /CombinationLock.xdc=-1
+/CombinationLockOnlyLockTest.xdc=-1
 TestBench/CombinationLockSystem_TB.vhd=-1
 TestBench/CombinationLockSystem_TB_runtest.do=-1
 post-synthesis/..\..\synthesis\CombinationLockSystem.edn=-1
 post-synthesis/..\..\synthesis\CombinationLockSystem.vhd=-1
+post-synthesis/..\..\synthesis\CombinationLock.edn=-1
+post-synthesis/..\..\synthesis\CombinationLock.vhd=-1
+timing/..\..\implement\CombinationLock.v=-1
+timing/..\..\implement\CombinationLock.sdf=-1
+timing/..\..\implement\glbl.v=-1
+timing/..\..\implement\CombinationLockSystem.v=-1
+timing/..\..\implement\CombinationLockSystem.sdf=-1
 
 [Files.Data]
 .\src\CombinationLock.asf=State Diagram
@@ -271,11 +288,19 @@ post-synthesis/..\..\synthesis\CombinationLockSystem.vhd=-1
 .\src\CombinationLockSystem.bde=Block Diagram
 .\src\passedTest.asdb=Accelerated Waveform File
 .\src\passedTest.awc=Accelerated Waveform Configuration
-.\src\CombinationLock.xdc=External File
+.\src\CombinationLock.xdc=Text File
+.\src\CombinationLockOnlyLockTest.xdc=Text File
 .\src\TestBench\CombinationLockSystem_TB.vhd=VHDL Test Bench
 .\src\TestBench\CombinationLockSystem_TB_runtest.do=Macro
 .\synthesis\CombinationLockSystem.edn=EDIF Netlist
 .\synthesis\CombinationLockSystem.vhd=VHDL Source Code
+.\synthesis\CombinationLock.edn=EDIF Netlist
+.\synthesis\CombinationLock.vhd=VHDL Source Code
+.\implement\CombinationLock.v=VERILOG SOURCE CODE
+.\implement\CombinationLock.sdf=SDF FILE
+.\implement\glbl.v=VERILOG SOURCE CODE
+.\implement\CombinationLockSystem.v=VERILOG SOURCE CODE
+.\implement\CombinationLockSystem.sdf=SDF FILE
 
 [file_out:/CombinationLock.asf]
 /..\compile\CombinationLock.vhd=-1

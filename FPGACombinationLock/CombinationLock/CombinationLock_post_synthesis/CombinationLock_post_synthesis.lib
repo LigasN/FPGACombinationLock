@@ -1,12 +1,12 @@
-timestamp=1577540991488
+timestamp=1547240614147
 
 [~A]
-ModifyID=23
+ModifyID=31
 Version=74
 
 [combinationlock]
 A/combinationlock_arch=*23|.\..\src\CombinationLock.asf|10000|
-A/structure=*21|./../synthesis/CombinationLockSystem.vhd|43|
+A/structure=*21|./../synthesis/CombinationLock.vhd|30|
 
 [combinationlocksystem]
 A/combinationlocksystem=*24|.\..\src\CombinationLockSystem.bde|10000|
@@ -28,15 +28,15 @@ A/prescaler=*21|./../src/Prescaler.vhd|28|
 A/structure=*21|./../synthesis/CombinationLockSystem.vhd|3588|
 
 [~MFT]
-0=0|0CombinationLock_post_synthesis.mgf|1123|0
+0=0|0CombinationLock_post_synthesis.mgf|1224|0
 
 [~U]
 combinationlock=CombinationLock 11|0*0|
 combinationlocksystem=CombinationLockSystem 11|0*253|
-combinationlocksystem_tb=CombinationLockSystem_TB 11|0*542|
-debouncer=Debouncer 11|0*696|
-display=Display 11|0*886|
-prescaler=Prescaler 11|0*1123|
+combinationlocksystem_tb=CombinationLockSystem_TB 11|0*519|
+debouncer=Debouncer 11|0*673|
+display=Display 11|0*888|
+prescaler=Prescaler 11|0*1224|
 
 
 

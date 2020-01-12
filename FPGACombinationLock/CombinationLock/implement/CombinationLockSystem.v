@@ -1,7 +1,7 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-// Date        : Sat Dec 28 14:52:35 2019
+// Date        : Fri Jan 11 22:09:46 2019
 // Host        : Lenovo-Y50 running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -sdf_anno false -force CombinationLockSystem.v
 // Design      : CombinationLockSystem
@@ -276,7 +276,6 @@ module CombinationLock
         .I4(State[3]),
         .I5(State[0]),
         .O(\DELTA[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \DELTA[1]_i_2 
@@ -293,7 +292,6 @@ module CombinationLock
         .I4(State[3]),
         .I5(State[0]),
         .O(\DELTA[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \DELTA[2]_i_2 
@@ -319,7 +317,6 @@ module CombinationLock
         .I4(State[3]),
         .I5(State[0]),
         .O(\DELTA[3]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT4 #(
     .INIT(16'h7F80)) 
     \DELTA[3]_i_4 
@@ -710,7 +707,6 @@ module CombinationLock
         .I4(State[1]),
         .I5(State[0]),
         .O(\FSM_sequential_State[3]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT4 #(
     .INIT(16'h7E00)) 
     \FSM_sequential_State[3]_i_5 
@@ -1413,7 +1409,6 @@ module CombinationLock
         .I4(BUS1630[12]),
         .I5(BUS1630[13]),
         .O(\SEV_SEG[6]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT5 #(
     .INIT(32'h222220AA)) 
     \SEV_SEG[6]_i_4 
@@ -1518,7 +1513,6 @@ module CombinationLock
         .I3(anode_reg),
         .I4(\SEV_SEG[9]_i_6_n_0 ),
         .O(SEV_SEG_reg[9]));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT5 #(
     .INIT(32'h0222008A)) 
     \SEV_SEG[9]_i_3 

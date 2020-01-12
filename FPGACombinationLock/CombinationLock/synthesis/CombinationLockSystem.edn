@@ -4,7 +4,7 @@
   (keywordmap (keywordlevel 0))
 (status
  (written
-  (timeStamp 2019 12 28 14 49 47)
+  (timeStamp 2019 01 11 22 03 29)
   (program "Vivado" (version "2017.4"))
   (comment "Built on 'Fri Dec 15 20:55:39 MST 2017'")
   (comment "Built by 'xbuild'")
@@ -5511,7 +5511,7 @@
 
   (design CombinationLockSystem
     (cellref CombinationLockSystem (libraryref work))
-    (property XLNX_PROJ_DIR (string "d:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis"))
+    (property XLNX_PROJ_DIR (string "D:/Dokumenty/Pulpit/programming_stuff/projekty_wersje_ostateczne/FPGACombinationLock/FPGACombinationLock/CombinationLock/synthesis"))
     (property part (string "xc7a100tcsg324-1"))
   )
 )

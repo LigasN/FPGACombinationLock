@@ -1,7 +1,2 @@
-"d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\compile\CombinationLock.vhd" VHDL CombinationLock 1 0 0 -02
-"d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Display.vhd" VHDL CombinationLock 1 0 0 -02
-"d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Debouncer.vhd" VHDL CombinationLock 1 0 0 -02
-"d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\Prescaler.vhd" VHDL CombinationLock 1 0 0 -02
-".\..\compile\CombinationLockSystem.vhd" VHDL CombinationLock 1 0 0 -02
-"d:\Dokumenty\Pulpit\programming_stuff\projekty_wersje_ostateczne\FPGACombinationLock\FPGACombinationLock\CombinationLock\src\TestBench\CombinationLockSystem_TB.vhd" VHDL CombinationLock 1 0 0 -02
-. . 0 0 0
+"../implement/CombinationLock.v"	2
+"../implement/glbl.v"	1

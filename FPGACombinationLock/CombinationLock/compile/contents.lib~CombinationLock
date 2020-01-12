@@ -1,4 +1,4 @@
-867
+896
 ~E 1 "./../compile/CombinationLock.vhd" 26 CombinationLock
 ~A 1 "./../compile/CombinationLock.vhd" 37 CombinationLock_arch
 ~E 1 "./../compile/combinationlocksystem.vhd" 27 CombinationLockSystem
